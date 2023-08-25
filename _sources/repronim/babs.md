@@ -15,10 +15,10 @@ kernelspec:
 
 # BABS
 
-| **GitHub Links** | |
-| -------------- | ----------------------------- |
-| **BABS** | https://github.com/ReproNim/reproschema |
-| **Collaborators**| Dorota, Chenying, TBD |
+**GitHub Links**:
+- https://github.com/PennLINC/babs
+
+**Collaborators**: Dorota, Chenying
 
 ## Project Updates
 
