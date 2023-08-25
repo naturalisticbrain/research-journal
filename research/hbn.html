@@ -160,9 +160,10 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="prettymouth.html">Prettymouth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="budapest.html">Budapest</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Healthy Brain Network</a></li>
-
-
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Healthy Brain Network</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="eye-tracking-asd.html">Eye-Tracking ASD</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">ReproNim</span></p>
 <ul class="nav bd-sidenav">
@@ -362,56 +363,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Healthy Brain Network</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">1. Preprocessing</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eye-tracking">2. Eye-tracking</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a></li>
 </ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupytext-cell-metadata-filter-all-formats-md-myst-text-representation-extension-md-format-name-myst-format-version-0-13-jupytext-version-1-11-5-kernelspec-display-name-python-3-language-python-name-python3">jupytext:
-cell_metadata_filter: -all
-formats: md:myst
-text_representation:
-extension: .md
-format_name: myst
-format_version: 0.13
-jupytext_version: 1.11.5
-kernelspec:
-display_name: Python 3
-language: python
-name: python3</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#eye-tracking-asd">Eye-Tracking ASD</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Project Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reproschema">3. ReproSchema</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">jupytext:
-cell_metadata_filter: -all
-formats: md:myst
-text_representation:
-extension: .md
-format_name: myst
-format_version: 0.13
-jupytext_version: 1.11.5
-kernelspec:
-display_name: Python 3
-language: python
-name: python3</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">ReproSchema</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-hbn-assessments">1. Converting HBN assessments</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -451,8 +405,7 @@ name: python3</a></li>
 </section>
 <section id="project-updates">
 <h2>Project Updates<a class="headerlink" href="#project-updates" title="Permalink to this heading">#</a></h2>
-<section id="preprocessing">
-<h3>1. Preprocessing<a class="headerlink" href="#preprocessing" title="Permalink to this heading">#</a></h3>
+<p><strong>Preprocessing</strong></p>
 <p><strong>Code on GitHub</strong>: <a class="reference external" href="https://github.com/yibeichan/hbn_practice/tree/main/fmri/code">Private</a></p>
 <p>I am running fmriprep and xcp-d on release 10 subjects. Jeff is taking care of releases 1-9.</p>
 <p>There are 700 subjects in total.</p>
@@ -493,129 +446,6 @@ name: python3</a></li>
 </li>
 </ul>
 </div></blockquote>
-</section>
-<section id="eye-tracking">
-<h3>2. Eye-tracking<a class="headerlink" href="#eye-tracking" title="Permalink to this heading">#</a></h3>
-</section>
-</section>
-<hr class="docutils" />
-<section id="jupytext-cell-metadata-filter-all-formats-md-myst-text-representation-extension-md-format-name-myst-format-version-0-13-jupytext-version-1-11-5-kernelspec-display-name-python-3-language-python-name-python3">
-<h2>jupytext:
-cell_metadata_filter: -all
-formats: md:myst
-text_representation:
-extension: .md
-format_name: myst
-format_version: 0.13
-jupytext_version: 1.11.5
-kernelspec:
-display_name: Python 3
-language: python
-name: python3<a class="headerlink" href="#jupytext-cell-metadata-filter-all-formats-md-myst-text-representation-extension-md-format-name-myst-format-version-0-13-jupytext-version-1-11-5-kernelspec-display-name-python-3-language-python-name-python3" title="Permalink to this heading">#</a></h2>
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="eye-tracking-asd">
-<h1>Eye-Tracking ASD<a class="headerlink" href="#eye-tracking-asd" title="Permalink to this heading">#</a></h1>
-<section id="id1">
-<h2>Project Description<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
-<p>Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking and phenotype data.</p>
-<table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p></p></th>
-<th class="head"><p></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><strong>GitHub Link</strong></p></td>
-<td><p><a class="reference external" href="https://github.com/sensein/eye-tracking-asd">Private on SIG</a></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>Collaborators</strong></p></td>
-<td><p>Fabio Catania, TBD</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>MIT Project</strong></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>SIG Project</strong></p></td>
-<td><p>Yes</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="id2">
-<h2>Project Updates<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
-<p>&#64;08/17/2023</p>
-<blockquote>
-<div><p>First meeting with Fabio, agreed on the goal of this project: Explore the heterogeneity/idiosyncrasy within the ASD group. Specifically:</p>
-<ul class="simple">
-<li><p>we will do ASD vs TD comparison as the baseline checking</p></li>
-<li><p>our focus will be within ASD group</p></li>
-</ul>
-</div></blockquote>
-<p>&#64;08/23/2023—08/24/2023</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Cleaned the eye-tracking data with behavioral information, figured out who has watched which movie(s) in what order.</p></li>
-<li><p>Met with Fabio for next steps:</p></li>
-<li><ul>
-<li><p>YC will extract time series data from eye-tracking txt. I need to <strong>feel</strong> the data to come up concrete/interesting RQs.</p></li>
-</ul>
-</li>
-<li><ul>
-<li><p>FC will explore the phenotype data and the stimuli. We may need to coordinate with MK and JM at some point.</p></li>
-</ul>
-</li>
-</ul>
-</div></blockquote>
-<section id="reproschema">
-<h3>3. ReproSchema<a class="headerlink" href="#reproschema" title="Permalink to this heading">#</a></h3>
-</section>
-</section>
-<hr class="docutils" />
-<section id="id3">
-<h2>jupytext:
-cell_metadata_filter: -all
-formats: md:myst
-text_representation:
-extension: .md
-format_name: myst
-format_version: 0.13
-jupytext_version: 1.11.5
-kernelspec:
-display_name: Python 3
-language: python
-name: python3<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="id4">
-<h1>ReproSchema<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h1>
-<p><strong>GitHub Links</strong></p>
-<ul class="simple">
-<li><p><a class="github reference external" href="https://github.com/ReproNim/reproschema">ReproNim/reproschema</a></p></li>
-<li><p><a class="github reference external" href="https://github.com/ReproNim/reproschema-library">ReproNim/reproschema-library</a></p></li>
-</ul>
-<p><strong>Collaborators</strong>: Dorota, Kseniia, Maedbh</p>
-<section id="id5">
-<h2>Project Updates<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h2>
-<section id="converting-hbn-assessments">
-<h3>1. Converting HBN assessments<a class="headerlink" href="#converting-hbn-assessments" title="Permalink to this heading">#</a></h3>
-<p><strong>Code on GitHub</strong>: <a class="reference external" href="https://github.com/yibeichan/hbn_practice/tree/main/reproschema">Private</a></p>
-<p>&#64;07/2023</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Start converting HBN assessments to reproschema library; Maedbh provided cleaned items</p></li>
-<li><p>Maedbh introduced Kseniia</p></li>
-<li><p>Dorota has been helping with programing.</p></li>
-</ul>
-</div></blockquote>
-<p>&#64;08/24/2023</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Start (manually) collecting free HBN assessments, shared on <a class="reference external" href="https://drive.google.com/drive/folders/19WaMiDkIfXoBbIP4DfMj57j0Q9IHq2E-?usp=drive_link">SIG Google Drive</a>. Kseniia has access too.</p></li>
-<li><p>We can’t calculate subscores for CBCL, because it’s not free. We can’t make it public either. This applies to all private/paid assessments. (Kseniia)</p></li>
-<li><p>Dorota and I will review this <a class="reference external" href="https://github.com/ReproNim/reproschema-library/pull/67">PR</a> on 08/29/2023.</p></li>
-</ul>
-</div></blockquote>
-</section>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -688,56 +518,9 @@ name: python3<a class="headerlink" href="#id3" title="Permalink to this heading"
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Healthy Brain Network</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">1. Preprocessing</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eye-tracking">2. Eye-tracking</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a></li>
 </ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupytext-cell-metadata-filter-all-formats-md-myst-text-representation-extension-md-format-name-myst-format-version-0-13-jupytext-version-1-11-5-kernelspec-display-name-python-3-language-python-name-python3">jupytext:
-cell_metadata_filter: -all
-formats: md:myst
-text_representation:
-extension: .md
-format_name: myst
-format_version: 0.13
-jupytext_version: 1.11.5
-kernelspec:
-display_name: Python 3
-language: python
-name: python3</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#eye-tracking-asd">Eye-Tracking ASD</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Project Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reproschema">3. ReproSchema</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">jupytext:
-cell_metadata_filter: -all
-formats: md:myst
-text_representation:
-extension: .md
-format_name: myst
-format_version: 0.13
-jupytext_version: 1.11.5
-kernelspec:
-display_name: Python 3
-language: python
-name: python3</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">ReproSchema</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#converting-hbn-assessments">1. Converting HBN assessments</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
   </nav></div>
 
 </div></div>
