@@ -3,11 +3,12 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: prettymouth
-- file: budapest
-- file: hbn
-  title: Research
-- file: pydra
-- file: babs
-  title: ReproNim
+- caption: Research
+    chapters:
+    - file: prettymouth
+    - file: budapest
+    - file: hbn
+  - caption: ReproNim
+    chapters:
+    - file: pydra
+    - file: babs
