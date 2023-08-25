@@ -1,10 +1,25 @@
+---
+jupytext:
+  cell_metadata_filter: -all
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.11.5
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # ReproSchema
 
-| **GitHub Links** | |
-| -------------- | ----------------------------- |
-| **ReproSchema**  | https://github.com/ReproNim/reproschema |
-| **ReproSchema Library**| https://github.com/ReproNim/reproschema-library |
-| **Collaborators**| Dorota, Kseniia, Maedbh, TBD |
+**GitHub Links** 
+- https://github.com/ReproNim/reproschema
+- https://github.com/ReproNim/reproschema-library
+
+**Collaborators**: Dorota, Kseniia, Maedbh
 
 ## Project Updates
 

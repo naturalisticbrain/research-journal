@@ -15,12 +15,12 @@ kernelspec:
 
 # Pydra
 
-| **GitHub Links** | |
-| -------------- | ----------------------------- |
-| **Pydra**| https://github.com/nipype/pydra |
-| **Pydra Tutorial**| https://github.com/nipype/pydra-tutorial |
-| **Nipype2Pydra**| https://github.com/nipype/nipype2pydra |
-| **Collaborators**| Dorota, TBD |
+**GitHub Links**:
+- https://github.com/nipype/pydra 
+- https://github.com/nipype/pydra-tutorial
+- https://github.com/nipype/nipype2pydra
+
+**Collaborators**: Dorota
 
 ## Project Updates
 

@@ -9,6 +9,9 @@ parts:
     - file: research/prettymouth
     - file: research/budapest
     - file: research/hbn
+      sections:
+      - file: research/eye-tracking-asd.md
+      - file: repronim/reproschema.md
   - caption: ReproNim
     chapters:
     - file: repronim/reproschema
