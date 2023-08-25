@@ -28,7 +28,7 @@ kernelspec:
 
 ## Project Updates
 
-### 1. Preprocessing
+**Preprocessing**
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/fmri/code)
 
@@ -53,13 +53,3 @@ There are 700 subjects in total.
 > - - -> cleaned my `tmp` folder and rerun those subjects.
 > - `slurmstepd: error:.*DUE TO TIME LIMIT*`
 > - - -> I'll fix this once I fix all other errors.
-
-### 2. Eye-tracking
-
-```{include} eye-tracking-asd.md 
-```
-
-### 3. ReproSchema
-
-```{include} ../repronim/reproschema.md
-```
