@@ -3,7 +3,8 @@
 
 format: jb-book
 root: intro
-- caption: Research
+parts:
+  - caption: Research
     chapters:
     - file: prettymouth
     - file: budapest
