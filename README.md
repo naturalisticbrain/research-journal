@@ -1,7 +1,5 @@
 # Research Journal
 
-A journal for YC's research projects
-
 ## Usage
 
 ### Building the book

@@ -14,3 +14,9 @@ kernelspec:
 ---
 
 # Pydra
+
+| **GitHub Links** | |
+| -------------- | ----------------------------- |
+| **Pydra**| https://github.com/nipype/pydra |
+| **Pydra Tutorial**| https://github.com/nipype/pydra-tutorial |
+| **Nipype2Pydra**| https://github.com/nipype/nipype2pydra |
