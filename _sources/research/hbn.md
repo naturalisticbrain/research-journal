@@ -56,10 +56,8 @@ There are 700 subjects in total.
 
 ### 2. Eye-tracking
 
-```{include}eye-tracking-asd.md
-```
+```{include} research-journal/research/eye-tracking-asd.md 
 
 ### 3. ReproSchema
 
-```{include}../repronim/reproschema.md
-```
+```{include} research-journal/repronim/reproschema.md
