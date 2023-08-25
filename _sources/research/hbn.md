@@ -28,7 +28,7 @@ kernelspec:
 
 ## Project Updates
 
-**Preprocessing**
+### Preprocessing
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/fmri/code)
 
