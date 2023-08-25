@@ -1,7 +1,5 @@
 # About This Book
 
-Yibei Chen(@yibeichan), _Postdoctoral Associate @MIT_
---- 
 This journal is to track my science projects since my time (07/2023—) at the [McGovern Institute for Brain Research](https://mcgovern.mit.edu/) at [Massachusetts Institute of Technology](https://www.mit.edu/). This is also part of my weekly report for the [Senseable Intelligence Group](https://sensein.group/).
 
 Research rojects listed here are my first-author or co-first-author projects only. I will create one page to summarize all my other non-primary projects, if any.
