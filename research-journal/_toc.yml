@@ -4,6 +4,10 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: prettymouth
+- file: budapest
+- file: hbn
+  title: Research
+- file: pydra
+- file: babs
+  title: ReproNim
