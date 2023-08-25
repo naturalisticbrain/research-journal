@@ -20,7 +20,7 @@ kernelspec:
 
 | | |
 | -------------- | ----------------------------- |
-| **GitHub Link**  | [Private](https://github.com/yibeichan/prettymouth) 
+| **GitHub Link**  | [Private](https://github.com/yibeichan/prettymouth) |
 | **Collaborators**| Zaid Zada, Gasser Elbanna, Greg Ashby, Sam Nastase* |
 | **MIT Project**  | No |
 | **SIG Project**  | No |

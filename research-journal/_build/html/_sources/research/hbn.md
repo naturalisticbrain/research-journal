@@ -21,9 +21,9 @@ kernelspec:
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | None |
-| **Collaborators**| People at SIG          |
-| **MIT Project**  | Yes                    |
-| **SIG Project**  | Yes                    |
+| **Collaborators**| People at SIG |
+| **MIT Project**  | Yes |
+| **SIG Project**  | Yes |
 
 
 ## Project Updates
@@ -56,8 +56,10 @@ There are 700 subjects in total.
 
 ### 2. Eye-tracking
 
-```{include} research-journal/research/eye-tracking-asd.md 
+```{include} eye-tracking-asd.md 
+```
 
 ### 3. ReproSchema
 
-```{include} research-journal/repronim/reproschema.md
+```{include} ../repronim/reproschema.md
+```
