@@ -430,13 +430,13 @@ document.write(`
 <h3>08/25/2023<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <p>The second round of fmriprep + xcp-d finished with mixed sucess, two major errors found:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">mkdir:</span> <span class="pre">write</span> <span class="pre">error:</span> <span class="pre">Disk</span> <span class="pre">quota</span> <span class="pre">exceeded</span></code></p></li>
-<li><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">mkdir:</span> <span class="pre">write</span> <span class="pre">error:</span> <span class="pre">Disk</span> <span class="pre">quota</span> <span class="pre">exceeded</span></code></p>
+<ul>
 <li><p>-&gt; cleaned my <code class="docutils literal notranslate"><span class="pre">tmp</span></code> folder and rerun those subjects.</p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">slurmstepd:</span> <span class="pre">error:.*DUE</span> <span class="pre">TO</span> <span class="pre">TIME</span> <span class="pre">LIMIT*</span></code></p></li>
-<li><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">slurmstepd:</span> <span class="pre">error:.*DUE</span> <span class="pre">TO</span> <span class="pre">TIME</span> <span class="pre">LIMIT*</span></code></p>
+<ul>
 <li><p>-&gt; I’ll fix this once I fix all other errors.</p></li>
 </ul>
 </li>
@@ -446,13 +446,13 @@ document.write(`
 <h3>08/21/2023<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <p>After this first round (I call it first round because all subjects were submitted simultaneously, but this is almost my 5th or 6th times running the same script on them), two major errors found:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">ValueError:</span> <span class="pre">Only</span> <span class="pre">one</span> <span class="pre">phase-encoding</span> <span class="pre">direction</span> <span class="pre">&lt;j-&gt;</span> <span class="pre">found</span> <span class="pre">across</span> <span class="pre">sources.</span></code> 66 subjects missing the other PE direction <code class="docutils literal notranslate"><span class="pre">j</span></code> file.</p></li>
-<li><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">ValueError:</span> <span class="pre">Only</span> <span class="pre">one</span> <span class="pre">phase-encoding</span> <span class="pre">direction</span> <span class="pre">&lt;j-&gt;</span> <span class="pre">found</span> <span class="pre">across</span> <span class="pre">sources.</span></code> 66 subjects missing the other PE direction <code class="docutils literal notranslate"><span class="pre">j</span></code> file.</p>
+<ul>
 <li><p>-&gt; rerun fmriprep with <code class="docutils literal notranslate"><span class="pre">--ignore</span> <span class="pre">fieldmaps</span></code>. I tried <code class="docutils literal notranslate"><span class="pre">--use-syn-sdc</span></code>, which still gave me the same error</p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">slurmstepd:</span> <span class="pre">error:.*DUE</span> <span class="pre">TO</span> <span class="pre">TIME</span> <span class="pre">LIMIT*</span></code> those subjects (n=21) were stuck at <code class="docutils literal notranslate"><span class="pre">resume</span> <span class="pre">recon-all</span></code></p></li>
-<li><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">slurmstepd:</span> <span class="pre">error:.*DUE</span> <span class="pre">TO</span> <span class="pre">TIME</span> <span class="pre">LIMIT*</span></code> those subjects (n=21) were stuck at <code class="docutils literal notranslate"><span class="pre">resume</span> <span class="pre">recon-all</span></code></p>
+<ul>
 <li><p>-&gt; I guess I will give them another chance. If the same, I’ll just let them go</p></li>
 </ul>
 </li>

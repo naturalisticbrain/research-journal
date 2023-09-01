@@ -26,7 +26,7 @@ kernelspec:
 
 **Weekly Meeting (DJ & YC): Thursdays 3-5pm, EST**
 
-### 1. Pydra Tutorial
+**Pydra Tutorial**
 
-@08/24/2023
-> Met with Dorota, we will introduce the new [typing-checking](https://github.com/nipype/pydra/pull/662) to the tutorial.
+### 08/24/2023
+Met with Dorota, we will introduce the new [typing-checking](https://github.com/nipype/pydra/pull/662) to the tutorial.

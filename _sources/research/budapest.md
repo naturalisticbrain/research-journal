@@ -25,7 +25,6 @@ Hierarchical encoding models in the brain during movie-viewing
 | **MIT Project**  | No |
 | **SIG Project**  | No |
 
-
 ## Project Updates
 
 **This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.**
