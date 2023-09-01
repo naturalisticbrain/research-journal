@@ -35,8 +35,8 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 ### 08/23/2023 — 08/24/2023
 - Cleaned the eye-tracking data with behavioral information, figured out who has watched which movie(s) in what order.
 - Met with Fabio for next steps:
-- - YC will extract time series data from eye-tracking txt. I need to **feel** the data to come up concrete/interesting RQs. 
-- - FC will explore the phenotype data and the stimuli. We may need to coordinate with MK and JM at some point.
+  - YC will extract time series data from eye-tracking txt. I need to **feel** the data to come up concrete/interesting RQs. 
+  - FC will explore the phenotype data and the stimuli. We may need to coordinate with MK and JM at some point.
 
 ### 08/17/2023
 First meeting with Fabio, agreed on the goal of this project: Explore the heterogeneity/idiosyncrasy within the ASD group. Specifically:

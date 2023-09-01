@@ -43,15 +43,15 @@ For movie data:
 ### 08/25/2023
 The second round of fmriprep + xcp-d finished with mixed sucess, two major errors found:
 - `mkdir: write error: Disk quota exceeded` 
-- - -> cleaned my `tmp` folder and rerun those subjects.
+  - -> cleaned my `tmp` folder and rerun those subjects.
 - `slurmstepd: error:.*DUE TO TIME LIMIT*`
-- - -> I'll fix this once I fix all other errors.
+  - -> I'll fix this once I fix all other errors.
 
 ### 08/21/2023
 After this first round (I call it first round because all subjects were submitted simultaneously, but this is almost my 5th or 6th times running the same script on them), two major errors found:
 - `ValueError: Only one phase-encoding direction <j-> found across sources.` 66 subjects missing the other PE direction `j` file. 
-- - -> rerun fmriprep with `--ignore fieldmaps`. I tried `--use-syn-sdc`, which still gave me the same error
+  - -> rerun fmriprep with `--ignore fieldmaps`. I tried `--use-syn-sdc`, which still gave me the same error
 - `slurmstepd: error:.*DUE TO TIME LIMIT*` those subjects (n=21) were stuck at `resume recon-all`
-- - -> I guess I will give them another chance. If the same, I'll just let them go
+  - -> I guess I will give them another chance. If the same, I'll just let them go
 - I do see some other minor errors during xcp-d, which don't make too much sense to me at this point, I will deal with them during the final round.
 
