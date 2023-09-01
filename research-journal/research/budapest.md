@@ -16,7 +16,7 @@ kernelspec:
 # Budapest
 
 ## Project Description
-[Describe your project here]
+Hierarchical encoding models in the brain during movie-viewing
 
 | | |
 | -------------- | ----------------------------- |
@@ -28,12 +28,15 @@ kernelspec:
 
 ## Project Updates
 
-@02/2023—08/2023
-> YC, ZZ, RR, & SN initialized the project (02/2023)
->
-> This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.
+**This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.**
 
-@08/24/23
-> Met with SN; TODOs for the coming week:
-> - YC figure out previous RA rating data; if not useful, we need to collect new data.
-> - YC figure out audio feature extraction
+### 08/28/2023 - 09/01/2023
+Didn't have time for this project this week.
+
+### 08/24/23
+Met with SN; TODOs for the coming week:
+- YC figure out previous RA rating data; if not useful, we need to collect new data.
+- YC figure out audio feature extraction
+
+### 02/2023—08/2023
+YC, ZZ, RR, & SN initialized the project (02/2023)

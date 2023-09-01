@@ -10,7 +10,8 @@ parts:
     - file: research/budapest
     - file: research/hbn
       sections:
-      - file: research/eye-tracking-asd
+      - file: research/hbn/data-proc
+      - file: research/hbn/eye-tracking-asd
   
   - caption: ReproNim
     chapters:
