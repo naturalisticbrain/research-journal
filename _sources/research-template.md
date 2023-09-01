@@ -13,14 +13,18 @@ kernelspec:
   name: python3
 ---
 
-# Healthy Brain Network
+# Project Name
 
 ## Project Description
-[Healthy Brain Network](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html) related projects
+[Describe your project here]
 
 | | |
 | -------------- | ----------------------------- |
-| **GitHub Link**  | None |
-| **Collaborators**| SIG |
-| **MIT Project**  | Yes |
-| **SIG Project**  | Yes |
+| **GitHub Link**  | |
+| **Collaborators**| |
+| **MIT Project**  | No |
+| **SIG Project**  | No |
+
+
+## Project Updates
+
