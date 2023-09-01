@@ -64,7 +64,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'research/hbn';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Eye-Tracking ASD" href="eye-tracking-asd.html" />
+    <link rel="next" title="Data Processing" href="hbn/data-proc.html" />
     <link rel="prev" title="Budapest" href="budapest.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -161,7 +161,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="prettymouth.html">Prettymouth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="budapest.html">Budapest</a></li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Healthy Brain Network</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="eye-tracking-asd.html">Eye-Tracking ASD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hbn/data-proc.html">Data Processing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hbn/eye-tracking-asd.html">Eye-Tracking ASD</a></li>
 </ul>
 </li>
 </ul>
@@ -364,10 +365,6 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
-</ul>
-</li>
 </ul>
             </nav>
         </div>
@@ -383,7 +380,7 @@ document.write(`
 <h1>Healthy Brain Network<a class="headerlink" href="#healthy-brain-network" title="Permalink to this heading">#</a></h1>
 <section id="project-description">
 <h2>Project Description<a class="headerlink" href="#project-description" title="Permalink to this heading">#</a></h2>
-<p>[Describe your project here]</p>
+<p><a class="reference external" href="http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html">Healthy Brain Network</a> related projects</p>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p></p></th>
@@ -395,7 +392,7 @@ document.write(`
 <td><p>None</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Collaborators</strong></p></td>
-<td><p>People at SIG</p></td>
+<td><p>SIG</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>MIT Project</strong></p></td>
 <td><p>Yes</p></td>
@@ -405,52 +402,6 @@ document.write(`
 </tr>
 </tbody>
 </table>
-</section>
-<section id="project-updates">
-<h2>Project Updates<a class="headerlink" href="#project-updates" title="Permalink to this heading">#</a></h2>
-<section id="preprocessing">
-<h3>Preprocessing<a class="headerlink" href="#preprocessing" title="Permalink to this heading">#</a></h3>
-<p><strong>Code on GitHub</strong>: <a class="reference external" href="https://github.com/yibeichan/hbn_practice/tree/main/fmri/code">Private</a></p>
-<p>I am running fmriprep and xcp-d on release 10 subjects. Jeff is taking care of releases 1-9.</p>
-<p>There are 700 subjects in total.</p>
-<ul class="simple">
-<li><p>45 subjects do not have either <code class="docutils literal notranslate"><span class="pre">func</span></code> or <code class="docutils literal notranslate"><span class="pre">anat</span></code>, should be excluded.</p></li>
-<li><p>3 subjects miss <code class="docutils literal notranslate"><span class="pre">fmap</span></code> but not other parts, should be fmriprepped with <code class="docutils literal notranslate"><span class="pre">--ignore</span> <span class="pre">fieldmaps</span></code></p></li>
-</ul>
-<p>&#64;08/21/2023</p>
-<blockquote>
-<div><p>After this first round (I call it first round because all subjects were submitted simultaneously, but this is almost my 5th or 6th times running the same script on them), two major errors found:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">ValueError:</span> <span class="pre">Only</span> <span class="pre">one</span> <span class="pre">phase-encoding</span> <span class="pre">direction</span> <span class="pre">&lt;j-&gt;</span> <span class="pre">found</span> <span class="pre">across</span> <span class="pre">sources.</span></code> 66 subjects missing the other PE direction <code class="docutils literal notranslate"><span class="pre">j</span></code> file.</p></li>
-<li><ul>
-<li><p>-&gt; rerun fmriprep with <code class="docutils literal notranslate"><span class="pre">--ignore</span> <span class="pre">fieldmaps</span></code>. I tried <code class="docutils literal notranslate"><span class="pre">--use-syn-sdc</span></code>, which still gave me the same error</p></li>
-</ul>
-</li>
-<li><p><code class="docutils literal notranslate"><span class="pre">slurmstepd:</span> <span class="pre">error:.*DUE</span> <span class="pre">TO</span> <span class="pre">TIME</span> <span class="pre">LIMIT*</span></code> those subjects (n=21) were stuck at <code class="docutils literal notranslate"><span class="pre">resume</span> <span class="pre">recon-all</span></code></p></li>
-<li><ul>
-<li><p>-&gt; I guess I will give them another chance. If the same, I’ll just let them go</p></li>
-</ul>
-</li>
-<li><p>I do see some other minor errors during xcp-d, which don’t make too much sense to me at this point, I will deal with them during the final round.</p></li>
-</ul>
-</div></blockquote>
-<p>&#64;08/25/2023</p>
-<blockquote>
-<div><p>The second round of fmriprep + xcp-d finished with mixed sucess, two major errors found:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">mkdir:</span> <span class="pre">write</span> <span class="pre">error:</span> <span class="pre">Disk</span> <span class="pre">quota</span> <span class="pre">exceeded</span></code></p></li>
-<li><ul>
-<li><p>-&gt; cleaned my <code class="docutils literal notranslate"><span class="pre">tmp</span></code> folder and rerun those subjects.</p></li>
-</ul>
-</li>
-<li><p><code class="docutils literal notranslate"><span class="pre">slurmstepd:</span> <span class="pre">error:.*DUE</span> <span class="pre">TO</span> <span class="pre">TIME</span> <span class="pre">LIMIT*</span></code></p></li>
-<li><ul>
-<li><p>-&gt; I’ll fix this once I fix all other errors.</p></li>
-</ul>
-</li>
-</ul>
-</div></blockquote>
-</section>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -497,11 +448,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="eye-tracking-asd.html"
+       href="hbn/data-proc.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Eye-Tracking ASD</p>
+        <p class="prev-next-title">Data Processing</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -524,10 +475,6 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
-</ul>
-</li>
 </ul>
   </nav></div>
 

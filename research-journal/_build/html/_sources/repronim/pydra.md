@@ -20,7 +20,7 @@ kernelspec:
 - https://github.com/nipype/pydra-tutorial
 - https://github.com/nipype/nipype2pydra
 
-**Collaborators**: Dorota
+**Contributors**: Dorota
 
 ## Project Updates
 
