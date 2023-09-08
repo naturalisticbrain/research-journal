@@ -366,9 +366,10 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">08/28/2023 - 09/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">08/25/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">08/21/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">09/05/2023 - 09/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">08/28/2023 - 09/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">08/25/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">08/21/2023</a></li>
 </ul>
 </li>
 </ul>
@@ -419,15 +420,29 @@ document.write(`
 <li><p>3 subjects miss <code class="docutils literal notranslate"><span class="pre">fmap</span></code> but not other parts, should be fmriprepped with <code class="docutils literal notranslate"><span class="pre">--ignore</span> <span class="pre">fieldmaps</span></code></p></li>
 </ul>
 <section id="id1">
-<h3>08/28/2023 - 09/01/2023<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<h3>09/05/2023 - 09/08/2023<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>keep (re)running resting state data for release 10 (kep failing for disk quota reason but I got ~100 more subjects done this week, still 300-400 subjects to go)</p></li>
+<li><p>all movie data is finished so I used the xcp-d qc output to take a quick look at FD.</p>
+<ul>
+<li><p>movie_DM: 1822 out of 2290 subjects meanFD &lt; 0.2mm</p></li>
+<li><p>movie_TP: 1951 out of 2344 subjects meanFD &lt; 0.2mm</p></li>
+<li><p>note: FD &gt; 0.2 mm is considered as high motion <a class="footnote-reference brackets" href="#id6" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p></li>
+<li><p>need to take a deeper look at other qc measures provided by xcp-d.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id3">
+<h3>08/28/2023 - 09/01/2023<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Started the GitHub repo on SIG with Jeff to document code &amp; record successful/failed subjects</p></li>
 <li><p>Realized that I only ran fmriprep + xcp-d on movie data, now running the pipeline on the resting state data</p></li>
 <li><p>Met with Jeff on Monday discussing plans after fmriprep + xcp-d, mostly we need to come up with quality control measures/assessments so that we can filter out unqualified data for further analysis. This is different from MRIQC because (1) we didn’t run MRIQC before fMRIPrep, which we should … and (2) our assessments are more naturalistic analysis focused; for people who want to run other type of analyses, they can come up with their own customized assessments.</p></li>
 </ul>
 </section>
-<section id="id2">
-<h3>08/25/2023<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<section id="id4">
+<h3>08/25/2023<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
 <p>The second round of fmriprep + xcp-d finished with mixed sucess, two major errors found:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">mkdir:</span> <span class="pre">write</span> <span class="pre">error:</span> <span class="pre">Disk</span> <span class="pre">quota</span> <span class="pre">exceeded</span></code></p>
@@ -442,8 +457,8 @@ document.write(`
 </li>
 </ul>
 </section>
-<section id="id3">
-<h3>08/21/2023<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<section id="id5">
+<h3>08/21/2023<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
 <p>After this first round (I call it first round because all subjects were submitted simultaneously, but this is almost my 5th or 6th times running the same script on them), two major errors found:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">ValueError:</span> <span class="pre">Only</span> <span class="pre">one</span> <span class="pre">phase-encoding</span> <span class="pre">direction</span> <span class="pre">&lt;j-&gt;</span> <span class="pre">found</span> <span class="pre">across</span> <span class="pre">sources.</span></code> 66 subjects missing the other PE direction <code class="docutils literal notranslate"><span class="pre">j</span></code> file.</p>
@@ -458,6 +473,11 @@ document.write(`
 </li>
 <li><p>I do see some other minor errors during xcp-d, which don’t make too much sense to me at this point, I will deal with them during the final round.</p></li>
 </ul>
+<hr class="footnotes docutils" />
+<aside class="footnote brackets" id="id6" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">1</a><span class="fn-bracket">]</span></span>
+<p>Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L., &amp; Petersen, S. E. (2012). Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. Neuroimage, 59(3), 2142-2154. <a class="reference external" href="https://doi.org/10.1016/j.neuroimage.2011.10.018">https://doi.org/10.1016/j.neuroimage.2011.10.018</a>.</p>
+</aside>
 </section>
 </section>
 </section>
@@ -531,9 +551,10 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">08/28/2023 - 09/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">08/25/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">08/21/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">09/05/2023 - 09/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">08/28/2023 - 09/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">08/25/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">08/21/2023</a></li>
 </ul>
 </li>
 </ul>
