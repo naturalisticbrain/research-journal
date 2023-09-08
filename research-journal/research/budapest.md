@@ -29,9 +29,6 @@ Hierarchical encoding models in the brain during movie-viewing
 
 **This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.**
 
-### 08/28/2023 - 09/01/2023
-Didn't have time for this project this week.
-
 ### 08/24/23
 Met with SN; TODOs for the coming week:
 - YC figure out previous RA rating data; if not useful, we need to collect new data.

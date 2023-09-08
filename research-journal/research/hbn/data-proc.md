@@ -35,6 +35,14 @@ For movie data:
 - 45 subjects do not have either `func` or `anat`, should be excluded.
 - 3 subjects miss `fmap` but not other parts, should be fmriprepped with `--ignore fieldmaps`
 
+### 09/05/2023 - 09/08/2023
+- keep (re)running resting state data for release 10 (kep failing for disk quota reason but I got ~100 more subjects done this week, still 300-400 subjects to go)
+- all movie data is finished so I used the xcp-d qc output to take a quick look at FD.
+  - movie_DM: 1822 out of 2290 subjects meanFD < 0.2mm
+  - movie_TP: 1951 out of 2344 subjects meanFD < 0.2mm
+  - note: FD > 0.2 mm is considered as high motion [^1] 
+  - need to take a deeper look at other qc measures provided by xcp-d.
+
 ### 08/28/2023 - 09/01/2023
 - Started the GitHub repo on SIG with Jeff to document code & record successful/failed subjects
 - Realized that I only ran fmriprep + xcp-d on movie data, now running the pipeline on the resting state data
@@ -55,3 +63,4 @@ After this first round (I call it first round because all subjects were submitte
   - -> I guess I will give them another chance. If the same, I'll just let them go
 - I do see some other minor errors during xcp-d, which don't make too much sense to me at this point, I will deal with them during the final round.
 
+[^1]: Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L., & Petersen, S. E. (2012). Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. Neuroimage, 59(3), 2142-2154. https://doi.org/10.1016/j.neuroimage.2011.10.018.

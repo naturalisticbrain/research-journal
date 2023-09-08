@@ -27,6 +27,10 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 
 ## Project Updates
 
+### 09/05/2023 - 09/08/2023
+- got metadata for eyetracking (e.g., sampling rate (subjects have different sampling rates), starting, ending time, order)
+- subtracted the starting time from the eyetracking record, then I got negative numbers for the first couple of lines in each file (I haven't figured out why yet)
+
 ### 08/28/2023 - 09/01/2023
 - Revised my behavioral data cleaning code from last week
 - Reformatted the eyetracking txt into multiple CSV files (e.g., fixation, saccade, blink, etc.).
