@@ -29,6 +29,11 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 
 **This project has been submitted to OHBN 2023 and presented as a poster in July 2023, Montreal, Canada.**
 
+### 09/05/2023 - 09/08/2023
+- SN and YC have disagreement on processing the behavioral event boundary data
+- ZZ and SN suggested different methods on detecting peaks
+- YC will run analysis again this Sunday
+
 ### 08/28/2023 - 09/01/2023
 - `--use-aroma` is depricated since fMRIPrep 23.1.0
 - We go for `cifti` format

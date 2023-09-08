@@ -27,6 +27,13 @@ kernelspec:
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)
 
+### 09/05/2023 - 09/08/2023
+- DJ and YC went through YC's PR and then merged it
+- YC will use the newly added assessment to create a protocol (via reproschema-ui repo). This would be useful for
+  - testing whether the assessments works
+  - checking whether the reproschema-ui documentation needs any improvement
+  - writing the paper because making this protocal can help us to put our feet into user's shoes to see what kind of obstacels they would ecounter, etc.
+
 ### 08/28/2023 - 09/01/2023
 - Revised the 12 assessments in this [PR](https://github.com/ReproNim/reproschema-library/pull/67) 
 
