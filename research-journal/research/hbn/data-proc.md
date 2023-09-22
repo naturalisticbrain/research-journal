@@ -16,7 +16,7 @@ kernelspec:
 # Data Processing
 
 ## Project Description
-Pre & post preprocessing image (fMRI) data.
+Pre & post processing image (fMRI) data.
 
 | | |
 | -------------- | ----------------------------- |
@@ -27,13 +27,10 @@ Pre & post preprocessing image (fMRI) data.
 
 ## Project Updates
 
-I am running fmriprep and xcp-d on release 10 subjects. Jeff is taking care of releases 1-9.
+fmriprep is done for all 1-10 releases data. 2864 out of 3311 subjects are successful.
 
-There are 700 subjects in total.
-
-For movie data:
-- 45 subjects do not have either `func` or `anat`, should be excluded.
-- 3 subjects miss `fmap` but not other parts, should be fmriprepped with `--ignore fieldmaps`
+### 09/18/2023 - 09/22/2023
+- mriqc is running (1483 to be done by Friday or Saturday)
 
 ### 09/05/2023 - 09/08/2023
 - keep (re)running resting state data for release 10 (kep failing for disk quota reason but I got ~100 more subjects done this week, still 300-400 subjects to go)

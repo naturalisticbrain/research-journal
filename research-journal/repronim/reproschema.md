@@ -27,6 +27,12 @@ kernelspec:
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)
 
+### 09/18/2023 - 09/22/2023
+- drafted the outline for manuscript, DJ has commented on it.
+
+### 09/11/2023 - 09/15/2023
+- played with the [demo-protocal](https://github.com/yibeichan/demo-protocol), got some errors for loading the webpage
+
 ### 09/05/2023 - 09/08/2023
 - DJ and YC went through YC's PR and then merged it
 - YC will use the newly added assessment to create a protocol (via reproschema-ui repo). This would be useful for

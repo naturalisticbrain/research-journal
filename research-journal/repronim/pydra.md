@@ -28,5 +28,9 @@ kernelspec:
 
 **Pydra Tutorial**
 
+### 09/18/2023 - 09/22/2023
+- added [type-checking](https://github.com/nipype/pydra-tutorial/pull/47) to the tutorial, but then this new version of pydra has some conflicts with my old code on 2nd level GLM
+- during pydra meeting, we discussed creating/updating/integrating documentation & tutorial. more details will come during the hackthon week (10/16-10/20).
+
 ### 08/24/2023
 Met with Dorota, we will introduce the new [typing-checking](https://github.com/nipype/pydra/pull/662) to the tutorial.
