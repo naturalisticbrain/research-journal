@@ -21,11 +21,17 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Private on SIG](https://github.com/sensein/eye-tracking-asd) |
-| **Collaborators**| Fabio Catania, TBD |
+| **Collaborators**| Fabio Catania, Jeff Mentch, Satra Ghosh* |
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
 
 ## Project Updates
+
+### 09/18/2023 - 09/22/2023
+- YC and FC met on Thursday and splitted the task for writing pre-registration. Next meeting will be on 10/05.
+
+### 09/11/2023 - 09/15/2023
+- We discussed the behavioral encoding model with Satra on Thursday, then we decided to do pre-registration
 
 ### 09/05/2023 - 09/08/2023
 - got metadata for eyetracking (e.g., sampling rate (subjects have different sampling rates), starting, ending time, order)
