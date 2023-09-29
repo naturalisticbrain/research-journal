@@ -22,7 +22,9 @@ kernelspec:
 
 ## Project Updates
 
-**Testing fMRIPrep via BABS on OpenMind**
+### 09/25/2023 - 09/29/2023
+- SOBP abstract submitted ()
+- we found a potential solution to fix the **long filepath problem** but the implementation would be not easy, we plan to fix it before the next major release, see [this issue](https://github.com/PennLINC/babs/issues/138)
 
 ### 09/18/2023 - 09/22/2023
 - got email from Dave about presenting BABS for SOBP. more details next Thursday
