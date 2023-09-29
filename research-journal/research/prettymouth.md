@@ -37,8 +37,8 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 ### 09/18/2023 - 09/22/2023
 - YC need to update plots/figures
 - new concerns raised. 
-- - we need behavioral ratings for each event (how to get it?)
-- - we need to do some network-level analysis
+  - we need behavioral ratings for each event (how to get it?)
+  - we need to do some network-level analysis
 
 ### 09/11/2023 - 09/15/2023
 - disagreement resolved, move to plotting and manuscript writing
