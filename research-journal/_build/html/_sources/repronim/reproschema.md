@@ -27,6 +27,10 @@ kernelspec:
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)
 
+### 09/25/2023 - 09/29/2023
+- got some feedback on other comparable tools (added to the outline) at the repronim meeting
+- fix abcd_cbcl01 scoring, see [PR](https://github.com/ReproNim/reproschema-library/pull/68)
+
 ### 09/18/2023 - 09/22/2023
 - drafted the outline for manuscript, DJ has commented on it.
 

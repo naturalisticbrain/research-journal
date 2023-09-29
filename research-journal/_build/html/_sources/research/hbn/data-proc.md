@@ -29,6 +29,10 @@ Pre & post processing image (fMRI) data.
 
 fmriprep is done for all 1-10 releases data. 2864 out of 3311 subjects are successful.
 
+### 09/15/2023 - 09/29/2023
+- mriqc is finished, we have data from 3118 out of 3311 subjects
+- some QC results are [here](https://github.com/sensein/hbn_fmri/blob/main/code/qc/qc.ipynb)
+
 ### 09/18/2023 - 09/22/2023
 - mriqc is running (1483 to be done by Friday or Saturday)
 
