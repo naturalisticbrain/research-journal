@@ -29,6 +29,12 @@ Hierarchical encoding models in the brain during movie-viewing
 
 **This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.**
 
+### 10/02/2023 - 10/06/2023
+- finally bring this back to the agenda, TODOs for next week
+  - finish post-fmriprep
+  - set up four encoding modes
+  - compute cofluctuations
+
 ### 09/25/2023 - 09/29/2023
 - Jeff finished the fmriprep for both datasets
 - the rest of us still didn't get time to discuss this project yet...
