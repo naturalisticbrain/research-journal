@@ -28,3 +28,5 @@ kernelspec:
 ### [Data Processing](research-journal/research/hbn/data-proc.md)
 
 ### [Eye-Tracking ASD](research-journal/research/hbn/eye-tracking-asd.md)
+
+### [edge-FC ADHD](research-journal/research/hbn/eFC-adhd.md)

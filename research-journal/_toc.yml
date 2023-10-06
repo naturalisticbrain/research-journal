@@ -12,6 +12,7 @@ parts:
       sections:
       - file: research/hbn/data-proc
       - file: research/hbn/eye-tracking-asd
+      - file: research/hbn/eFC-adhd
   
   - caption: ReproNim
     chapters:
