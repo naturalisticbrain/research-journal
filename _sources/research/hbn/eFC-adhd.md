@@ -13,7 +13,7 @@ kernelspec:
   name: python3
 ---
 
-# edge-Functional Connectivity in ADHD subtypes
+# edge-centric Functional Connectivity in ADHD subtypes
 
 ## Project Description
 
