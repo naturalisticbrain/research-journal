@@ -27,6 +27,10 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 
 ## Project Updates
 
+### 10/02/2023 - 10/06/2023
+- YC proposed to separate the methods part out as a new project; no follow-up yet
+- YC and FC met and YC will make some plots based on the coordinates in two weeks (not guaranteed given YC's schedule)
+
 ### 09/18/2023 - 09/22/2023
 - YC and FC met on Thursday and splitted the task for writing pre-registration. Next meeting will be on 10/05.
 
