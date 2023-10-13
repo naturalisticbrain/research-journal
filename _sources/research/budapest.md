@@ -29,6 +29,9 @@ Hierarchical encoding models in the brain during movie-viewing
 
 **This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.**
 
+### 10/09/2023 - 10/13/2023
+- Encoding models (6 in total) were almost done; but then we found the results suspicious — STS has super high activation across all models, even the messy ones; we had the results from the old fmri data as a baseline; need to double check what happened in this newly preprocessed data before we proceed to the next step.
+
 ### 10/02/2023 - 10/06/2023
 - finally bring this back to the agenda, TODOs for next week
   - finish post-fmriprep
