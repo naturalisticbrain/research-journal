@@ -19,7 +19,7 @@ kernelspec:
 
 | | |
 | -------------- | ----------------------------- |
-| **GitHub Link**  | |
+| **GitHub Link**  | [Private on SIG](https://github.com/sensein/hbn_adhd)|
 | **Collaborators**| Maedbh King, Satra Ghosh* |
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
@@ -27,6 +27,12 @@ kernelspec:
 
 ## Project Updates
 This project is aiming at OHBM 2024 submission (deadline: 11/17/2023)
+
+### 10/09/2023 - 10/13/2023
+- Subjects filteration/selection has done, see [here](https://github.com/sensein/hbn_adhd/blob/main/code/01_select_subjects.ipynb)
+- Decide to get cofluctuation matrix for each subject in the qualified QC list regardless of their ADHD diagnosis. The reason is that the computation is quite heavy and if we later (after OHBM) want to include more subjects, grouping them by 3 ADHD subtypes is not logically friendly to append new data (anyway, after many failed trials I decide to compute everything...)
+- The parcel-level (we use Scheafer 400-parcel 17 network) pairwise cofluctuation (shape: n_parcel, n_parcel, n_TR) per subject should be done this Saturday. 
+- Created [this cute function](https://github.com/sensein/hbn_adhd/blob/58379ac1fd789e240fd603976b8e16c01466106a/code/utils/__init__.py#L1) to quickly get a given subject's movie data information
 
 ### 10/02/2023 - 10/06/2023
 - YC and MK met, set up timelines:

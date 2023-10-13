@@ -29,10 +29,13 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 
 **This project has been submitted to OHBN 2023 and presented as a poster in July 2023, Montreal, Canada.**
 
+### 10/09/2023 - 10/13/2023
+- We didn't discuss/do any work on this project this week but the preprocessing issue from `budapest` reminds us to check the preprocessed data as well since those two projects use the same fmriprep + post-fmriprep code.
+
 ### 10/02/2023 - 10/06/2023
 - well, YC's methods got pushed back
 - prompts for behavioral data approved, but I currently don't have time to set up Pavlovia for data collection
-- We need to shift our focus for the SfN project so we have to slow this one down a bit; not a pause
+- We need to shift our focus to the SfN project so we have to slow this one down a bit; not a pause
 - Gonna make some plots SN wants
 
 ### 09/25/2023 - 09/29/2023

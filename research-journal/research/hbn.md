@@ -20,7 +20,7 @@ kernelspec:
 
 | | |
 | -------------- | ----------------------------- |
-| **GitHub Link**  | None |
+| **GitHub Link**  | [Wiki](https://github.com/sensein/hbn_fmri/wiki) |
 | **Collaborators**| SIG |
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
@@ -29,4 +29,4 @@ kernelspec:
 
 ### [Eye-Tracking ASD](research-journal/research/hbn/eye-tracking-asd.md)
 
-### [edge-FC ADHD](research-journal/research/hbn/eFC-adhd.md)
+### [Edge-centric FC ADHD](research-journal/research/hbn/eFC-adhd.md)
