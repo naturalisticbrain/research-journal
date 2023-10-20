@@ -28,6 +28,13 @@ kernelspec:
 ## Project Updates
 This project is aiming at OHBM 2024 submission (deadline: 11/17/2023)
 
+### 10/16/2023 - 10/20/2023
+- Last time I decided to compute the matrix for all QCed subjects' movie data (~ 800 subjects each group); things were not going well because (1) those matrices are huge, (2) dask computing had some problems, and (3) still takes a long time even with dask
+- Then I found something inconsistent; the stimuli lengths are 3.4 mins (TP) and 10 mins (DM), each TR = 0.8 second, how could TP end up with 250 TR? and some subjects even have shorter TRs (248 TR); I check other papers with HBN movie data, they mentioned TP has 201 seconds. Here is the plan:
+  - we will use DM data since the information is clearer also longer TRs are better for our eFC
+  - I'm debating about whether to trim the first 5-10TR or so before computing eFC...
+  - I need to get next steps code ready this weekend while waiting for the first-step computing to be done
+
 ### 10/09/2023 - 10/13/2023
 - Subjects filteration/selection has done, see [here](https://github.com/sensein/hbn_adhd/blob/main/code/01_select_subjects.ipynb)
 - Decide to get cofluctuation matrix for each subject in the qualified QC list regardless of their ADHD diagnosis. The reason is that the computation is quite heavy and if we later (after OHBM) want to include more subjects, grouping them by 3 ADHD subtypes is not logically friendly to append new data (anyway, after many failed trials I decide to compute everything...)

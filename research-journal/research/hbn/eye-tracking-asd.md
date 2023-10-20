@@ -27,6 +27,12 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 
 ## Project Updates
 
+### 10/16/2023 - 10/20/2023
+- FC & YC met on 10/19, discussed & planned things based on our meeting with SG on 10/18
+- FC has emailed Andrea
+- planing meetings with JM next week for discussing movie choice, feature choices, & DICE
+- YC will put more effort to this after OHBM submission
+
 ### 10/02/2023 - 10/06/2023
 - YC proposed to separate the methods part out as a new project; no follow-up yet
 - YC and FC met and YC will make some plots based on the coordinates in two weeks (not guaranteed given YC's schedule)

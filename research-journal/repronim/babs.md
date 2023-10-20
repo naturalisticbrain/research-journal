@@ -22,6 +22,9 @@ kernelspec:
 
 ## Project Updates
 
+### 10/16/2023 - 10/20/2023
+- YC read & commented on R&R
+
 ### 09/25/2023 - 09/29/2023
 - SOBP abstract submitted
 - we found a potential solution to fix the **long filepath problem** but the implementation would be not easy, we plan to fix it before the next major release, see [this issue](https://github.com/PennLINC/babs/issues/138)
