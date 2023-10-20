@@ -367,8 +367,9 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/09/2023 - 10/13/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/02/2023 - 10/06/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/16/2023 - 10/20/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/09/2023 - 10/13/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">10/02/2023 - 10/06/2023</a></li>
 </ul>
 </li>
 </ul>
@@ -412,7 +413,20 @@ document.write(`
 <h2>Project Updates<a class="headerlink" href="#project-updates" title="Permalink to this heading">#</a></h2>
 <p>This project is aiming at OHBM 2024 submission (deadline: 11/17/2023)</p>
 <section id="id1">
-<h3>10/09/2023 - 10/13/2023<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<h3>10/16/2023 - 10/20/2023<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Last time I decided to compute the matrix for all QCed subjects’ movie data (~ 800 subjects each group); things were not going well because (1) those matrices are huge, (2) dask computing had some problems, and (3) still takes a long time even with dask</p></li>
+<li><p>Then I found something inconsistent; the stimuli lengths are 3.4 mins (TP) and 10 mins (DM), each TR = 0.8 second, how could TP end up with 250 TR? and some subjects even have shorter TRs (248 TR); I check other papers with HBN movie data, they mentioned TP has 201 seconds. Here is the plan:</p>
+<ul>
+<li><p>we will use DM data since the information is clearer also longer TRs are better for our eFC</p></li>
+<li><p>I’m debating about whether to trim the first 5-10TR or so before computing eFC…</p></li>
+<li><p>I need to get next steps code ready this weekend while waiting for the first-step computing to be done</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id2">
+<h3>10/09/2023 - 10/13/2023<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Subjects filteration/selection has done, see <a class="reference external" href="https://github.com/sensein/hbn_adhd/blob/main/code/01_select_subjects.ipynb">here</a></p></li>
 <li><p>Decide to get cofluctuation matrix for each subject in the qualified QC list regardless of their ADHD diagnosis. The reason is that the computation is quite heavy and if we later (after OHBM) want to include more subjects, grouping them by 3 ADHD subtypes is not logically friendly to append new data (anyway, after many failed trials I decide to compute everything…)</p></li>
@@ -420,8 +434,8 @@ document.write(`
 <li><p>Created <a class="reference external" href="https://github.com/sensein/hbn_adhd/blob/58379ac1fd789e240fd603976b8e16c01466106a/code/utils/__init__.py#L1">this cute function</a> to quickly get a given subject’s movie data information</p></li>
 </ul>
 </section>
-<section id="id2">
-<h3>10/02/2023 - 10/06/2023<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<section id="id3">
+<h3>10/02/2023 - 10/06/2023<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>YC and MK met, set up timelines:</p>
 <ul>
@@ -521,8 +535,9 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/09/2023 - 10/13/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/02/2023 - 10/06/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/16/2023 - 10/20/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/09/2023 - 10/13/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">10/02/2023 - 10/06/2023</a></li>
 </ul>
 </li>
 </ul>

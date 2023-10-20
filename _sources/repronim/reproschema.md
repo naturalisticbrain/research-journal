@@ -19,13 +19,17 @@ kernelspec:
 - https://github.com/ReproNim/reproschema
 - https://github.com/ReproNim/reproschema-library
 
-**Contributors**: Dorota, Kseniia, Maedbh
+**Contributors**: Dorota, Kseniia, Maedbh, Sooyang
 
 ## Project Updates
 
 **Converting HBN assessments**
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)
+
+### 10/16/2023 - 10/20/2023
+- had a meeting with Dorota & Sooyang discussing about where we are at with LinkML
+- Dorota & Sooyang will keep working on this next Monday, YC will catch up on this after OHBM submission
 
 ### 09/25/2023 - 09/29/2023
 - got some feedback on other comparable tools (added to the outline) at the repronim meeting

@@ -367,11 +367,12 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/09/2023 - 10/13/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/02/2023 - 10/06/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">09/25/2023 - 09/29/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">08/24/23</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">02/2023—08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/16/2023 - 10/20/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/09/2023 - 10/13/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">10/02/2023 - 10/06/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">09/25/2023 - 09/29/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">08/24/23</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">02/2023—08/2023</a></li>
 </ul>
 </li>
 </ul>
@@ -416,13 +417,20 @@ document.write(`
 <h2>Project Updates<a class="headerlink" href="#project-updates" title="Permalink to this heading">#</a></h2>
 <p><strong>This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.</strong></p>
 <section id="id1">
-<h3>10/09/2023 - 10/13/2023<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<h3>10/16/2023 - 10/20/2023<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>We did find some errors in removing confounds in cifti files; then we did single-subject comparison using old nifti, cifti, new nifti on ridge regression with GPT-2 embedding; ranking from good to bad: old nifti &gt; cifti &gt; new nifti (SN). Because the original fmri data was in 3x3x3.5mm space while cifti and new nifti are in isotopic 2mm space so we decided to rerun fMRIPrep without resampling the brain…it’s happening</p></li>
+<li><p>While waiting for fMRIPrep to be done, we can start coding for HMM (hopefully done this weekend)</p></li>
+</ul>
+</section>
+<section id="id2">
+<h3>10/09/2023 - 10/13/2023<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Encoding models (6 in total) were almost done; but then we found the results suspicious — STS has super high activation across all models, even the messy ones; we had the results from the old fmri data as a baseline; need to double check what happened in this newly preprocessed data before we proceed to the next step.</p></li>
 </ul>
 </section>
-<section id="id2">
-<h3>10/02/2023 - 10/06/2023<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<section id="id3">
+<h3>10/02/2023 - 10/06/2023<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>finally bring this back to the agenda, TODOs for next week</p>
 <ul>
@@ -433,23 +441,23 @@ document.write(`
 </li>
 </ul>
 </section>
-<section id="id3">
-<h3>09/25/2023 - 09/29/2023<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<section id="id4">
+<h3>09/25/2023 - 09/29/2023<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Jeff finished the fmriprep for both datasets</p></li>
 <li><p>the rest of us still didn’t get time to discuss this project yet…</p></li>
 </ul>
 </section>
-<section id="id4">
-<h3>08/24/23<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<section id="id5">
+<h3>08/24/23<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
 <p>Met with SN; TODOs for the coming week:</p>
 <ul class="simple">
 <li><p>YC figure out previous RA rating data; if not useful, we need to collect new data.</p></li>
 <li><p>YC figure out audio feature extraction</p></li>
 </ul>
 </section>
-<section id="id5">
-<h3>02/2023—08/2023<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<section id="id6">
+<h3>02/2023—08/2023<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
 <p>YC, ZZ, RR, &amp; SN initialized the project (02/2023)</p>
 </section>
 </section>
@@ -524,11 +532,12 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/09/2023 - 10/13/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/02/2023 - 10/06/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">09/25/2023 - 09/29/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">08/24/23</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">02/2023—08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10/16/2023 - 10/20/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10/09/2023 - 10/13/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">10/02/2023 - 10/06/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">09/25/2023 - 09/29/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">08/24/23</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">02/2023—08/2023</a></li>
 </ul>
 </li>
 </ul>
