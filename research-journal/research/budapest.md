@@ -31,7 +31,7 @@ Hierarchical encoding models in the brain during movie-viewing
 
 ### 10/23/2023 - 10/27/2023
 - no meeting
-- I found out & fixed a half-year old bug!! I was hyperexcited for a while when I realized what this this mistake has manfested me. The language brain. There are for sure something worth digging!
+- I found out & fixed a half-year old bug!! I was hyperexcited for a while when I realized what this this mistake was manifest to me. The language brain. There are for sure something worth digging!
 - need to fix the plot and get HMM results during the weekend.
 
 ### 10/16/2023 - 10/20/2023
