@@ -28,6 +28,18 @@ kernelspec:
 ## Project Updates
 This project is aiming at OHBM 2024 submission (deadline: 11/17/2023)
 
+### 10/23/2023 - 10/27/2023
+- there are two stages for this method, the first one is to get (n_parcel, n_parcel, n_TR) matrix, there are still ~400-subject-calculation (movie DM) ongoing due to preempted jobs & my misestimated saving strategy
+- at the second stage, there are two branches to go:
+  - RMS (n, n_TR), the 17-network one (17, n_TR) I did before thru averaging discounts edge characteristics, but I manually checked one participant's results and mapped TRs back to stimuli time, those spikes perfectly matches scene changes, especially spikes from the attention network. Now I decide to move to global RMS (1, n_TR), then go from here
+    - try classification at this stage (SVM, RBF) for three types with engineered features
+    - we should also combine those spikes with eFC
+  - edge-centric FC (n_edge, n_edge), this is the functional connectivity matrix, should be the core part of this paper but I need to think more about how to use it
+- other notes from meeting w/ SG & MK (mostly after OHBM)
+  - subcortical, cerebellum (cifti)
+  - behavioral data
+  - eFC vs DICE?
+
 ### 10/16/2023 - 10/20/2023
 - Last time I decided to compute the matrix for all QCed subjects' movie data (~ 800 subjects each group); things were not going well because (1) those matrices are huge, (2) dask computing had some problems, and (3) still takes a long time even with dask
 - Then I found something inconsistent; the stimuli lengths are 3.4 mins (TP) and 10 mins (DM), each TR = 0.8 second, how could TP end up with 250 TR? and some subjects even have shorter TRs (248 TR); I check other papers with HBN movie data, they mentioned TP has 201 seconds. Here is the plan:

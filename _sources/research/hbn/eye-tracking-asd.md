@@ -27,6 +27,13 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 
 ## Project Updates
 
+### 10/23/2023 - 10/27/2023
+- met with JM & FC (FC has more detailed notes)
+  - we decided to go with movie WK first given that it has real people/faces and faster scene change
+  - features: low-high visual features (can be extracted layer by layer) + audio features (TBD)
+  - no spatial coordinates from JM's tool
+  - we need a sprint for this project, maybe right after SfN/OHBM
+
 ### 10/16/2023 - 10/20/2023
 - FC & YC met on 10/19, discussed & planned things based on our meeting with SG on 10/18
 - FC has emailed Andrea
