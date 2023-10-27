@@ -29,6 +29,11 @@ Hierarchical encoding models in the brain during movie-viewing
 
 **This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.**
 
+### 10/23/2023 - 10/27/2023
+- no meeting
+- I found out & fixed a half-year old bug!! I was hyperexcited for a while when I realized what this this mistake has manfested me. The language brain. There are for sure something worth digging!
+- need to fix the plot and get HMM results during the weekend.
+
 ### 10/16/2023 - 10/20/2023
 - We did find some errors in removing confounds in cifti files; then we did single-subject comparison using old nifti, cifti, new nifti on ridge regression with GPT-2 embedding; ranking from good to bad: old nifti > cifti > new nifti (SN). Because the original fmri data was in 3x3x3.5mm space while cifti and new nifti are in isotopic 2mm space so we decided to rerun fMRIPrep without resampling the brain...it's happening
 - While waiting for fMRIPrep to be done, we can start coding for HMM (hopefully done this weekend)
