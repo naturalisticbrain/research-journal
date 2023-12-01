@@ -29,6 +29,9 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 
 **This project has been submitted to OHBN 2023 and presented as a poster in July 2023, Montreal, Canada.**
 
+### 11/17/2023 - 12/01/2023
+- pause until Jan 18th, 2024
+
 ### 10/09/2023 - 10/13/2023
 - We didn't discuss/do any work on this project this week but the preprocessing issue from `budapest` reminds us to check the preprocessed data as well since those two projects use the same fmriprep + post-fmriprep code.
 

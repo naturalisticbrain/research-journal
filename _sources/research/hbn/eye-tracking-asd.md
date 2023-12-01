@@ -27,6 +27,10 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 
 ## Project Updates
 
+### 11/17/2023 - 12/01/2023
+- YC will make the eye-tracking (coordinate) plots by Dec. 7th
+- We may have a hack week for this project on Dec. 11th- Dec. 14th, depending on how my reproschema work goes.
+
 ### 10/23/2023 - 10/27/2023
 - met with JM & FC (FC has more detailed notes)
   - we decided to go with movie WK first given that it has real people/faces and faster scene change
