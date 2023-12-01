@@ -26,7 +26,7 @@ kernelspec:
 
 
 ## Project Updates
-This project is aiming at OHBM 2024 submission (deadline: 11/17/2023)
+**12/01/2023: Pause**
 
 ### 10/23/2023 - 10/27/2023
 - there are two stages for this method, the first one is to get (n_parcel, n_parcel, n_TR) matrix, there are still ~400-subject-calculation (movie DM) ongoing due to preempted jobs & my misestimated saving strategy

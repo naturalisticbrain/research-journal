@@ -27,11 +27,14 @@ Hierarchical encoding models in the brain during movie-viewing
 
 ## Project Updates
 
-**This project has been submitted to SfN 2023 and will be presented as a poster in November 2023, Washington DC, USA.**
+**This project has been presented as a poster in November 2023, Washington DC, USA.**
+
+### 11/17/2023 - 12/01/2023
+- pause until Jan 18th, 2024
 
 ### 10/23/2023 - 10/27/2023
 - no meeting
-- I found out & fixed a half-year old bug!! I was hyperexcited for a while when I realized what this this mistake has manfested me. The language brain. There are for sure something worth digging!
+- I found out & fixed a half-year old bug!! I was hyperexcited for a while when I realized what this this mistake was manifest to me. The language brain. There are for sure something worth digging!
 - need to fix the plot and get HMM results during the weekend.
 
 ### 10/16/2023 - 10/20/2023
