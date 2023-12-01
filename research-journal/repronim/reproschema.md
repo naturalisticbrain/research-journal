@@ -23,20 +23,22 @@ kernelspec:
 
 **Major updates deadline: Jan. 5th, 2024**
 
+---
 **Package Maintainance**
-
 ### 11/17/2023 - 12/01/2023
 - met with Satra and set up plans
   - new release with linkML should be done in December
   - using linkML to convert reproschema to redcap (current script used javascript)
 - will meet with Dorota discussing next steps Dec. 5th
 
+---
 **Manuscript**
 ### 11/17/2023 - 12/01/2023
 - finally I got redcap account
 - met with Satra and set up plans
   - manuscipt done by the end of the year
 
+---
 **Converting HBN assessments**
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)
