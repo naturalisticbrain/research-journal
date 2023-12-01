@@ -19,13 +19,29 @@ kernelspec:
 - https://github.com/ReproNim/reproschema
 - https://github.com/ReproNim/reproschema-library
 
-**Contributors**: Dorota, Kseniia, Maedbh, Sooyang
-
 ## Project Updates
+
+**Major updates deadline: Jan. 5th, 2024**
+
+**Package Maintainance**
+
+### 11/17/2023 - 12/01/2023
+- met with Satra and set up plans
+  - new release with linkML should be done in December
+  - using linkML to convert reproschema to redcap (current script used javascript)
+- will meet with Dorota discussing next steps Dec. 5th
+
+**Manuscript**
+### 11/17/2023 - 12/01/2023
+- finally I got redcap account
+- met with Satra and set up plans
+  - manuscipt done by the end of the year
 
 **Converting HBN assessments**
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)
+
+**Contributors**: Dorota, Kseniia, Maedbh, Sooyang, etc.
 
 ### 10/16/2023 - 10/20/2023
 - had a meeting with Dorota & Sooyang discussing about where we are at with LinkML
