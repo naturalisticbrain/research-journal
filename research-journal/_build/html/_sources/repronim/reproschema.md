@@ -23,7 +23,13 @@ kernelspec:
 
 **Major updates deadline: Jan. 5th, 2024**
 
+---
 **Package Maintainance**
+### 12/04/2023 - 12/08/2023
+- met with Dorota on 12/07
+  - aim to finish LinkML part next week
+  - where to put the pytantic layer (decide next week)
+- YC works on demo/walkthrough next week
 
 ### 11/17/2023 - 12/01/2023
 - met with Satra and set up plans
@@ -31,12 +37,23 @@ kernelspec:
   - using linkML to convert reproschema to redcap (current script used javascript)
 - will meet with Dorota discussing next steps Dec. 5th
 
+---
 **Manuscript**
+### 12/04/2023 - 12/08/2023
+- draft progress:
+  - Intro (95% done)
+  - Reproschema Description/Design and Functionality (90% done)
+  - Component Overview (90% done)
+  - Comparative Analysis (the [table](https://docs.google.com/spreadsheets/d/1JGlxDM1NS0wO3eaqc3yK-roFxJcWVtvhIhUWjNyMiME/edit?usp=sharing) (SG & YC access only) is done but other text part hasn't started yet)
+  - Practical Walkthrough (will start next week)
+  - Discussion (not started yet)
+
 ### 11/17/2023 - 12/01/2023
 - finally I got redcap account
 - met with Satra and set up plans
   - manuscipt done by the end of the year
 
+---
 **Converting HBN assessments**
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)

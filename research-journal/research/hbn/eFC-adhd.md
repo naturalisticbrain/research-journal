@@ -26,6 +26,15 @@ kernelspec:
 
 
 ## Project Updates
+
+### 12/04/2023 - 12/08/2023
+- unexpected updates: Jeff checked my code for selecting neurotypical subjects and found that I have mistakenly relaxed the criteria, which means that my NT group probably has subjects that are not NT enough. Here is the message from Jeff:
+  ```
+  you are including “No Diagnosis Given: Incomplete Eval” and i exclude them
+  the threshold seems to be a count of how many diagnoses someone has. so as it is lowered, that means it will allow people with increasing numbers of diagnoses, for example, it will include someone if they have just 1 diagnosis of ADHD or whatever
+  ```
+- I will come back to this late Janurary to see whether correctly NT group will make our null results different
+
 **12/01/2023: Pause**
 
 ### 10/23/2023 - 10/27/2023
