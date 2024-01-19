@@ -8,6 +8,7 @@ parts:
     chapters:
     - file: research/prettymouth
     - file: research/budapest
+    - file: research/shinobi
     - file: research/hbn
       sections:
       - file: research/hbn/data-proc
