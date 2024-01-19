@@ -21,7 +21,7 @@ Pre & post processing image (fMRI) data.
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Private on SIG](https://github.com/sensein/hbn_fmri) |
-| **Collaborators**| Jeff Mentch, Steven Meisler, Maedbh King|
+| **Contributors**| Yibei CHen, Jeff Mentch, Steven Meisler, Maedbh King|
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
 

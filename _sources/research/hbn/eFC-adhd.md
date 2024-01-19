@@ -20,7 +20,7 @@ kernelspec:
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Private on SIG](https://github.com/sensein/hbn_adhd)|
-| **Collaborators**| Maedbh King, Satra Ghosh* |
+| **Contributors**| Yibei Chen, Maedbh King, Satra Ghosh* |
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
 

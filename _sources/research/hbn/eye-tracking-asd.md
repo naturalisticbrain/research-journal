@@ -21,11 +21,13 @@ Explore the heterogeneity/idiosyncrasy within the ASD group through eye-tracking
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Private on SIG](https://github.com/sensein/eye-tracking-asd) |
-| **Collaborators**| Fabio Catania, Jeff Mentch, Satra Ghosh* |
+| **Contributors**| Fabio Catania, Yibei Chen, Jeff Mentch, Satra Ghosh* |
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
 
 ## Project Updates
+
+**FC & YC talked at the end of 2023, YC decided to not be a co-first author, no more active updates from YC's side**
 
 ### 11/17/2023 - 12/01/2023
 - YC will make the eye-tracking (coordinate) plots by Dec. 7th
