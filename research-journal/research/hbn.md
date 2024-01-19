@@ -21,7 +21,7 @@ kernelspec:
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Wiki](https://github.com/sensein/hbn_fmri/wiki) |
-| **Collaborators**| SIG |
+| **Contributors**| SIG |
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
 

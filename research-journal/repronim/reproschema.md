@@ -21,24 +21,20 @@ kernelspec:
 
 ## Project Updates
 
+**Manuscript draft internal deadline: Feb. 2nd, 2024**
+
 **Major updates deadline: Jan. 5th, 2024**
 
 ---
-**Package Maintainance**
-### 12/04/2023 - 12/08/2023
-- met with Dorota on 12/07
-  - aim to finish LinkML part next week
-  - where to put the pytantic layer (decide next week)
-- YC works on demo/walkthrough next week
-
-### 11/17/2023 - 12/01/2023
-- met with Satra and set up plans
-  - new release with linkML should be done in December
-  - using linkML to convert reproschema to redcap (current script used javascript)
-- will meet with Dorota discussing next steps Dec. 5th
-
----
 **Manuscript**
+### 12/26/2023 - 01/19/2024
+- draft has been revised a couple of rounds but the `user cases` section is still to-be-written. this section will include `hbcd`, `bridge2ai`, `nimh-minimal`. i need to come up with a 
+- software side: working on improving the `redcap2reproschema` tool based on `hbcd` and `bridge2ai`
+  - `hbcd`: got the data dictionary using redcap API, but haven't figured out how to retrive historical versions yet
+  - `bridge2ai`: we start a thread with evan and alistir, will have more updates next week
+  - `nimh-minimal`: we have some javascript bugs in `ui` needs to be fixed, haven't been fixed yet
+- set up a meeting with MIT writing center to go through the draft on Jan. 26th (next Friday)
+
 ### 12/04/2023 - 12/08/2023
 - draft progress:
   - Intro (95% done)
@@ -52,6 +48,32 @@ kernelspec:
 - finally I got redcap account
 - met with Satra and set up plans
   - manuscipt done by the end of the year
+
+---
+**Package Maintainance**
+### 01/11/2024 - 01/12/2024
+- EAB meeting:
+  - `reproschema-protocol-cookiecutter` done
+  - `reproschema-demo-protocol` done
+  - `redcap2reproschema` done
+  - `reproschema2redcap` done
+  - `reproschema online document` done
+  - `LinkML conversion` not done
+- After EAB meeting TODOs:
+  - `nimh-minimal` needs to be finalized, which requires some fixes in `ui`
+  - improve `reproschema-protocol-cookiecutter` by enabling users to directly add activities from `reproschema-library`
+
+### 12/04/2023 - 12/08/2023
+- met with Dorota on 12/07
+  - aim to finish LinkML part next week
+  - where to put the pytantic layer (decide next week)
+- YC works on demo/walkthrough next week
+
+### 11/17/2023 - 12/01/2023
+- met with Satra and set up plans
+  - new release with linkML should be done in December
+  - using linkML to convert reproschema to redcap (current script used javascript)
+- will meet with Dorota discussing next steps Dec. 5th
 
 ---
 **Converting HBN assessments**
