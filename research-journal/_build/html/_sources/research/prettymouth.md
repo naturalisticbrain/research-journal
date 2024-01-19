@@ -21,13 +21,23 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Private](https://github.com/yibeichan/prettymouth) |
-| **Collaborators**| Zaid Zada, Gasser Elbanna, Greg Ashby, Sam Nastase* |
+| **Contributors**| Yibei Chen, Zaid Zada, Gasser Elbanna, Greg Ashby, Satra Ghosh, Sam Nastase* |
 | **MIT Project**  | No |
 | **SIG Project**  | No |
 
 ## Project Updates
 
 **This project has been submitted to OHBN 2023 and presented as a poster in July 2023, Montreal, Canada.**
+
+### 01/18/2024
+- had our first meeting in 2024 and decided that we'll finish all analyses for this one by end of Feburary then move to writing and working on the budapest one. finish (analysis done) by May.
+- before the meeting YC calculated root mean square (RMS) based on both inter-subject and intra-subject cofluctuation.
+- to conclude this project, we need to collect another round of behavioral data (ask participants to press the button whenever they find evidence relevant to the information (paranoia vs. affair) provided), in addition to the one we collected for event segmentation. we talked about how to possibly analyze the data: 
+  - separate both behavioral data (the 2nd round, evidence one) and the brain RMS into events (based on the 1st round data collection)
+  - think about how intra-subject cofluctuation & its RMS provide additional information to our current story?
+- for unconventional data (combination) types (those we don't see often), we are never able to come up detailed plans during the meeting. the most common reaction we have towards those types of data is "it might not be enough to do XXX". then, i'll have my weekend/sunday dedicated to think it through.
+- satra offers help for the data collection and i will come up with a detailed analysis plan before the data collection. (naming satra my favoriate person of the 3rd week of 2024)
+- the authorship will be updated accordingly.
 
 ### 11/17/2023 - 12/01/2023
 - pause until Jan 18th, 2024

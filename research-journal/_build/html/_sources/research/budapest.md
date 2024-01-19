@@ -21,7 +21,7 @@ Hierarchical encoding models in the brain during movie-viewing
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Private](https://github.com/yibeichan/event_segmentation_tgbh) |
-| **Collaborators**| Zaid Zada, Jeff Mentch, Ron Rice, Sam Nastase* |
+| **Contributors**| Yibei Chen, Zaid Zada, Jeff Mentch, Ron Rice, Sam Nastase* |
 | **MIT Project**  | No |
 | **SIG Project**  | No |
 
