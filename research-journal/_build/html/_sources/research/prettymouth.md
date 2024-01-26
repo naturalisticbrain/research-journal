@@ -29,8 +29,12 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 
 **This project has been submitted to OHBN 2023 and presented as a poster in July 2023, Montreal, Canada.**
 
-### 01/18/2024
-- had our first meeting in 2024 and decided that we'll finish all analyses for this one by end of Feburary then move to writing and working on the budapest one. finish (analysis done) by May.
+### 01/22/2024 - 01/26/2024
+- card payment has some problems, trying to resolve it next week.
+- no meeting, no data, no analysis
+
+### 01/15/2024 - 01/19/2024
+- had our first meeting in 2024 (01/18) and decided that we'll finish all analyses for this one by end of Feburary then move to writing and working on the budapest one. finish (analysis done) by May.
 - before the meeting YC calculated root mean square (RMS) based on both inter-subject and intra-subject cofluctuation.
 - to conclude this project, we need to collect another round of behavioral data (ask participants to press the button whenever they find evidence relevant to the information (paranoia vs. affair) provided), in addition to the one we collected for event segmentation. we talked about how to possibly analyze the data: 
   - separate both behavioral data (the 2nd round, evidence one) and the brain RMS into events (based on the 1st round data collection)
