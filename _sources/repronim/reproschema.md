@@ -16,8 +16,15 @@ kernelspec:
 # ReproSchema
 
 **GitHub Links** 
-- https://github.com/ReproNim/reproschema
-- https://github.com/ReproNim/reproschema-library
+- reproschema: https://github.com/ReproNim/reproschema
+- reproschema-library: https://github.com/ReproNim/reproschema-library
+- reproschema-py: https://github.com/ReproNim/reproschema-py
+- reproschema-ui: https://github.com/ReproNim/reproschema-ui
+- reproschema-protocol-cookiecutter: https://github.com/ReproNim/reproschema-protocol-cookiecutter
+- reproschema-demo-protocol: https://github.com/ReproNim/reproschema-demo-protocol
+- hbcd-schema: https://github.com/sensein/hbcd-schema
+- b2ai-redcap2rs: https://github.com/sensein/b2ai-redcap2rs
+- nimh-minimal: https://github.com/ReproNim/nimh-minimal
 
 ## Project Updates
 
@@ -26,9 +33,22 @@ kernelspec:
 **Major updates deadline: Jan. 5th, 2024**
 
 ---
-**Manuscript**
+## Manuscript 
+
+I include some software development updates here too, since they are associated with the manuscript
+
+### 01/22/2024 - 01/26/2024
+- finished the draft, met with Thalia from the writing center, discussed revision directions (01/16). I'll revise the draft sunday and monday then send to Satra and I'll keep revising it while Satra is reading it. Scheduled another meeting with Thalia next Friday.
+- 20 minutes zoom with Jonasch was helpful for the usercase
+- b2ai-redcap2rs was done for the current 4 versions.
+- hbcd-schema has some problems: 
+  - my github folder was under icloud so it syncs in real time; the hbcd data dictionary is huge and generates a lot of files for every conversion; i was too fast for "delete old version, copy new version, & git add ." but then by the time i finished typing commit message, both versions appeared in the folder. I didn't realize what happen until later, which means that some tags may have two versions so I want to redo it to make sure things are correct.
+  - I notice that for some data dictionary versions, especially when there are 2 version within a month, I couldn't find the differences between two converted versions. By "I couldn't find the differences" I mean I deleted the old one and added the new one git can't notice the changes. I'm thinking my converting tool may have failed to capture certain part of the reproschema so two conversions got the same result. (if I'm making any sense here)
+  - monday i spent the whole day trying to fix the branch logic at the activity level, opened an [issue here](https://github.com/ReproNim/reproschema-ui/issues/320). I'm thinking about adding a new part in `components` to take care of the between activity logic. haven't got time to implment it yet.
+- just a reminder to myself: we want to allow users to pull activities directly from the library when you using the cookiecutter
+
 ### 12/26/2023 - 01/19/2024
-- draft has been revised a couple of rounds but the `user cases` section is still to-be-written. this section will include `hbcd`, `bridge2ai`, `nimh-minimal`. i need to come up with a 
+- draft has been revised a couple of rounds but the `user cases` section is still to-be-written. this section will include `hbcd`, `bridge2ai`, `nimh-minimal`. i need to come up with a struture template for usercases.
 - software side: working on improving the `redcap2reproschema` tool based on `hbcd` and `bridge2ai`
   - `hbcd`: got the data dictionary using redcap API, but haven't figured out how to retrive historical versions yet
   - `bridge2ai`: we start a thread with evan and alistir, will have more updates next week
@@ -50,7 +70,7 @@ kernelspec:
   - manuscipt done by the end of the year
 
 ---
-**Package Maintainance**
+## Package Maintainance
 ### 01/11/2024 - 01/12/2024
 - EAB meeting:
   - `reproschema-protocol-cookiecutter` done
@@ -76,6 +96,8 @@ kernelspec:
 - will meet with Dorota discussing next steps Dec. 5th
 
 ---
+## Adding Assessments
+
 **Converting HBN assessments**
 
 **Code on GitHub**: [Private](https://github.com/yibeichan/hbn_practice/tree/main/reproschema)
