@@ -8,6 +8,8 @@ The [ReproNim](https://www.repronim.org/) (**Repro**ducible **N**euro**im**aging
 
 The links in this jounral are semi-public. If you are part of the team but have no access, please let me know. 
 
+My literature reading & notes are on Substack: [something neuro](https://yibei.substack.com/). I publish on web only, not via email, once a week.
+
 Yibei Chen, Postdoctoral Associate
 
 ```{tableofcontents}
