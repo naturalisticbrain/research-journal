@@ -37,6 +37,9 @@ kernelspec:
 
 I include some software development updates here too, since they are associated with the manuscript
 
+### 01/29/2024 - 02/02/2024
+- sent the draft to Satra on Monday but then we have some formatting concerns (in the email); talked to Thalia on Friday, very helpful and I think I have a solution.
+
 ### 01/22/2024 - 01/26/2024
 - finished the draft, met with Thalia from the writing center, discussed revision directions (01/16). I'll revise the draft sunday and monday then send to Satra and I'll keep revising it while Satra is reading it. Scheduled another meeting with Thalia next Friday.
 - 20 minutes zoom with Jonasch was helpful for the usercase

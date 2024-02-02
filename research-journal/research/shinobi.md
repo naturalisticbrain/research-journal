@@ -27,6 +27,9 @@ Video game playing in a deep scanning [dataset](https://www.cneuromod.ca/)
 
 ## Project Updates
 
+### 01/29/2024 - 02/02/2024
+- finally took a look at the extracted information but then I found something confusing; opened an issue [here](https://github.com/courtois-neuromod/shinobi/issues/41)
+
 ### 01/15/2024 - 01/19/2024
 - finally extracted `bk2` files (game replay files) to `json` files for the game play outside and inside the fmri; but i need to redo the extraction, it turns out that audio extract is also an option, see [here](https://github.com/courtois-neuromod/shinobi_training/issues/1#issuecomment-1900726304). There are some broken `bk2` files too... a bit sad.
 - i'll start visualization next week
