@@ -8,13 +8,17 @@ parts:
     chapters:
     - file: research/prettymouth
     - file: research/budapest
-    - file: research/shinobi
     - file: research/hbn
       sections:
       - file: research/hbn/data-proc
       - file: research/hbn/eye-tracking-asd
       - file: research/hbn/eFC-adhd
-  
+    - file: research/cneuromod
+      sections:
+      - file: research/cneurmod/friends
+      - file: research/cneuromod/shinobi
+    - file: research/fUSI-marmoset
+
   - caption: ReproNim
     chapters:
     - file: repronim/reproschema

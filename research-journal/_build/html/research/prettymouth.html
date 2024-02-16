@@ -174,13 +174,17 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Prettymouth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="budapest.html">Budapest</a></li>
-<li class="toctree-l1"><a class="reference internal" href="shinobi.html">Shinobi cNeuroMod</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hbn.html">Healthy Brain Network</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="hbn/data-proc.html">Data Processing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="hbn/eye-tracking-asd.html">Eye-Tracking ASD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="hbn/eFC-adhd.html">edge-centric Functional Connectivity in ADHD subtypes</a></li>
 </ul>
 </li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="cneuromod.html">cNeuroMod</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="cneuromod/shinobi.html">Shinobi cNeuroMod</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="fUSI-marmoset.html">fUSIPrep (Pydra)</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">ReproNim</span></p>
 <ul class="nav bd-sidenav">
@@ -384,19 +388,20 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">01/29/2024 - 02/02/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/22/2024 - 01/26/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">01/15/2024 - 01/19/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">11/17/2023 - 12/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">10/09/2023 - 10/13/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">10/02/2023 - 10/06/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">09/25/2023 - 09/29/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">09/18/2023 - 09/22/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">09/11/2023 - 09/15/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">09/05/2023 - 09/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">08/28/2023 - 09/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">08/24/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">03/2022—08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">02/19/2024 - 02/23/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/29/2024 - 02/02/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">01/22/2024 - 01/26/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">01/15/2024 - 01/19/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">11/17/2023 - 12/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">10/09/2023 - 10/13/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">10/02/2023 - 10/06/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">09/25/2023 - 09/29/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">09/18/2023 - 09/22/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">09/11/2023 - 09/15/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">09/05/2023 - 09/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">08/28/2023 - 09/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">08/24/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">03/2022—08/2023</a></li>
 </ul>
 </li>
 </ul>
@@ -441,20 +446,27 @@ document.write(`
 <h2>Project Updates<a class="headerlink" href="#project-updates" title="Permalink to this heading">#</a></h2>
 <p><strong>This project has been submitted to OHBN 2023 and presented as a poster in July 2023, Montreal, Canada.</strong></p>
 <section id="id1">
-<h3>01/29/2024 - 02/02/2024<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<h3>02/19/2024 - 02/23/2024<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>since YC lost data, we only plotted the behavioral part this time</p></li>
+<li><p>YC will recover/rerun the script to get data back + working on figures for next meeting</p></li>
+</ul>
+</section>
+<section id="id2">
+<h3>01/29/2024 - 02/02/2024<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>yay, payment issue solved and data collected! haven’t got time to check the data yet; will start some work next week.</p></li>
 </ul>
 </section>
-<section id="id2">
-<h3>01/22/2024 - 01/26/2024<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<section id="id3">
+<h3>01/22/2024 - 01/26/2024<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>card payment has some problems, trying to resolve it next week.</p></li>
 <li><p>no meeting, no data, no analysis</p></li>
 </ul>
 </section>
-<section id="id3">
-<h3>01/15/2024 - 01/19/2024<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<section id="id4">
+<h3>01/15/2024 - 01/19/2024<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>had our first meeting in 2024 (01/18) and decided that we’ll finish all analyses for this one by end of Feburary then move to writing and working on the budapest one. finish (analysis done) by May.</p></li>
 <li><p>before the meeting YC calculated root mean square (RMS) based on both inter-subject and intra-subject cofluctuation.</p></li>
@@ -464,25 +476,24 @@ document.write(`
 <li><p>think about how intra-subject cofluctuation &amp; its RMS provide additional information to our current story?</p></li>
 </ul>
 </li>
-<li><p>for unconventional data (combination) types (those we don’t see often), we are never able to come up detailed plans during the meeting. the most common reaction we have towards those types of data is “it might not be enough to do XXX”. then, i’ll have my weekend/sunday dedicated to think it through.</p></li>
 <li><p>satra offers help for the data collection and i will come up with a detailed analysis plan before the data collection. (naming satra my favoriate person of the 3rd week of 2024)</p></li>
 <li><p>the authorship will be updated accordingly.</p></li>
 </ul>
 </section>
-<section id="id4">
-<h3>11/17/2023 - 12/01/2023<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<section id="id5">
+<h3>11/17/2023 - 12/01/2023<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>pause until Jan 18th, 2024</p></li>
 </ul>
 </section>
-<section id="id5">
-<h3>10/09/2023 - 10/13/2023<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<section id="id6">
+<h3>10/09/2023 - 10/13/2023<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>We didn’t discuss/do any work on this project this week but the preprocessing issue from <code class="docutils literal notranslate"><span class="pre">budapest</span></code> reminds us to check the preprocessed data as well since those two projects use the same fmriprep + post-fmriprep code.</p></li>
 </ul>
 </section>
-<section id="id6">
-<h3>10/02/2023 - 10/06/2023<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
+<section id="id7">
+<h3>10/02/2023 - 10/06/2023<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>well, YC’s methods got pushed back</p></li>
 <li><p>prompts for behavioral data approved, but I currently don’t have time to set up Pavlovia for data collection</p></li>
@@ -490,16 +501,16 @@ document.write(`
 <li><p>Gonna make some plots SN wants</p></li>
 </ul>
 </section>
-<section id="id7">
-<h3>09/25/2023 - 09/29/2023<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<section id="id8">
+<h3>09/25/2023 - 09/29/2023<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>add network analyses</p></li>
 <li><p>prepare prompts for new behavioral data collection</p></li>
 <li><p>writing writing writing!!!</p></li>
 </ul>
 </section>
-<section id="id8">
-<h3>09/18/2023 - 09/22/2023<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
+<section id="id9">
+<h3>09/18/2023 - 09/22/2023<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>YC need to update plots/figures</p></li>
 <li><p>new concerns raised.</p>
@@ -510,22 +521,22 @@ document.write(`
 </li>
 </ul>
 </section>
-<section id="id9">
-<h3>09/11/2023 - 09/15/2023<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h3>
+<section id="id10">
+<h3>09/11/2023 - 09/15/2023<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>disagreement resolved, move to plotting and manuscript writing</p></li>
 </ul>
 </section>
-<section id="id10">
-<h3>09/05/2023 - 09/08/2023<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h3>
+<section id="id11">
+<h3>09/05/2023 - 09/08/2023<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>SN and YC have disagreement on processing the behavioral event boundary data</p></li>
 <li><p>ZZ and SN suggested different methods on detecting peaks</p></li>
 <li><p>YC will run analysis again this Sunday</p></li>
 </ul>
 </section>
-<section id="id11">
-<h3>08/28/2023 - 09/01/2023<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h3>
+<section id="id12">
+<h3>08/28/2023 - 09/01/2023<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">--use-aroma</span></code> is depricated since fMRIPrep 23.1.0</p></li>
 <li><p>We go for <code class="docutils literal notranslate"><span class="pre">cifti</span></code> format</p></li>
@@ -538,8 +549,8 @@ document.write(`
 </li>
 </ul>
 </section>
-<section id="id12">
-<h3>08/24/2023<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h3>
+<section id="id13">
+<h3>08/24/2023<a class="headerlink" href="#id13" title="Permalink to this heading">#</a></h3>
 <p>Met with SN; TODOs for the coming week:</p>
 <ul class="simple">
 <li><p>new fmriprep + preproc data ready (from GE). But I need to check what <code class="docutils literal notranslate"><span class="pre">--use-aroma</span></code> did. SN is concerned about <code class="docutils literal notranslate"><span class="pre">--output-spaces</span> <span class="pre">MNI152NLin6Asym:res-2</span> <span class="pre">anat</span> </code>; we should be more cautious when modifying the original BOLD signals (minimize the resampling on BOLD as much as possible).</p></li>
@@ -549,8 +560,8 @@ document.write(`
 <li><p>Keep revising the intro part.</p></li>
 </ul>
 </section>
-<section id="id13">
-<h3>03/2022—08/2023<a class="headerlink" href="#id13" title="Permalink to this heading">#</a></h3>
+<section id="id14">
+<h3>03/2022—08/2023<a class="headerlink" href="#id14" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>YC and GA initalized the project (03/2022)</p></li>
 <li><p>YC invited SN (08/2022)</p></li>
@@ -627,19 +638,20 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-description">Project Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">01/29/2024 - 02/02/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/22/2024 - 01/26/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">01/15/2024 - 01/19/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">11/17/2023 - 12/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">10/09/2023 - 10/13/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">10/02/2023 - 10/06/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">09/25/2023 - 09/29/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">09/18/2023 - 09/22/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">09/11/2023 - 09/15/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">09/05/2023 - 09/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">08/28/2023 - 09/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">08/24/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">03/2022—08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">02/19/2024 - 02/23/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/29/2024 - 02/02/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">01/22/2024 - 01/26/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">01/15/2024 - 01/19/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">11/17/2023 - 12/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">10/09/2023 - 10/13/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">10/02/2023 - 10/06/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">09/25/2023 - 09/29/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">09/18/2023 - 09/22/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">09/11/2023 - 09/15/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">09/05/2023 - 09/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">08/28/2023 - 09/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">08/24/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">03/2022—08/2023</a></li>
 </ul>
 </li>
 </ul>

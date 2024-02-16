@@ -21,11 +21,15 @@ Video game playing in a deep scanning [dataset](https://www.cneuromod.ca/)
 | | |
 | -------------- | ----------------------------- |
 | **GitHub Link**  | [Private](https://github.com/yibeichan/shinobi-cnm) |
+| **Notion** | [Page](https://www.notion.so/yibeichen/shinobi-026d717a5dee4c49ac1624a44a1b82a5?pvs=4) |
 | **Contributors**| Yibei Chen, TBD, Satra Ghosh* |
 | **MIT Project**  | Yes |
 | **SIG Project**  | Yes |
 
 ## Project Updates
+
+### 02/19/2024 - 02/23/2024
+- met with satra and had a plan (in the notion page) which needs more time and resource. we decide to do it step-by-step and skip this dataset for CCN.
 
 ### 01/29/2024 - 02/02/2024
 - finally took a look at the extracted information but then I found something confusing; opened an issue [here](https://github.com/courtois-neuromod/shinobi/issues/41)
