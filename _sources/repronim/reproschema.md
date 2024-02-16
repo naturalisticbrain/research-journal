@@ -37,6 +37,11 @@ kernelspec:
 
 I include some software development updates here too, since they are associated with the manuscript
 
+### 02/19/2024 - 02/23/2024
+- met with Thalia the forth time, we went through the methods/results/discussion based on last week's feedback (I didn't update here last week); making improvements everytime
+- keep revising + making figures during the weekend
+- plan to meet with Thalia next Friday too
+
 ### 01/29/2024 - 02/02/2024
 - sent the draft to Satra on Monday but then we have some formatting concerns (in the email); talked to Thalia on Friday, very helpful and I think I have a solution.
 

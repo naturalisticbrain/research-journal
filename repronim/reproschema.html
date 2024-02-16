@@ -66,7 +66,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="BABS" href="babs.html" />
-    <link rel="prev" title="edge-centric Functional Connectivity in ADHD subtypes" href="../research/hbn/eFC-adhd.html" />
+    <link rel="prev" title="fUSIPrep (Pydra)" href="../research/fUSI-marmoset.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,13 +174,17 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../research/prettymouth.html">Prettymouth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../research/budapest.html">Budapest</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../research/shinobi.html">Shinobi cNeuroMod</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../research/hbn.html">Healthy Brain Network</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../research/hbn/data-proc.html">Data Processing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../research/hbn/eye-tracking-asd.html">Eye-Tracking ASD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../research/hbn/eFC-adhd.html">edge-centric Functional Connectivity in ADHD subtypes</a></li>
 </ul>
 </li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../research/cneuromod.html">cNeuroMod</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../research/cneuromod/shinobi.html">Shinobi cNeuroMod</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../research/fUSI-marmoset.html">fUSIPrep (Pydra)</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">ReproNim</span></p>
 <ul class="current nav bd-sidenav">
@@ -384,28 +388,29 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#manuscript">Manuscript</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">01/29/2024 - 02/02/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/22/2024 - 01/26/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">12/26/2023 - 01/19/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">12/04/2023 - 12/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">11/17/2023 - 12/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">02/19/2024 - 02/23/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/29/2024 - 02/02/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">01/22/2024 - 01/26/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">12/26/2023 - 01/19/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">12/04/2023 - 12/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">11/17/2023 - 12/01/2023</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#package-maintainance">Package Maintainance</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">01/11/2024 - 01/12/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">12/04/2023 - 12/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">11/17/2023 - 12/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">01/11/2024 - 01/12/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">12/04/2023 - 12/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">11/17/2023 - 12/01/2023</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-assessments">Adding Assessments</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">10/16/2023 - 10/20/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">09/25/2023 - 09/29/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">09/18/2023 - 09/22/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">09/11/2023 - 09/15/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">09/05/2023 - 09/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">08/28/2023 - 09/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">08/24/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">07/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">10/16/2023 - 10/20/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">09/25/2023 - 09/29/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">09/18/2023 - 09/22/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">09/11/2023 - 09/15/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">09/05/2023 - 09/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">08/28/2023 - 09/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">08/24/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">07/2023</a></li>
 </ul>
 </li>
 </ul>
@@ -443,13 +448,21 @@ document.write(`
 <h2>Manuscript<a class="headerlink" href="#manuscript" title="Permalink to this heading">#</a></h2>
 <p>I include some software development updates here too, since they are associated with the manuscript</p>
 <section id="id1">
-<h3>01/29/2024 - 02/02/2024<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<h3>02/19/2024 - 02/23/2024<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>met with Thalia the forth time, we went through the methods/results/discussion based on last week’s feedback (I didn’t update here last week); making improvements everytime</p></li>
+<li><p>keep revising + making figures during the weekend</p></li>
+<li><p>plan to meet with Thalia next Friday too</p></li>
+</ul>
+</section>
+<section id="id2">
+<h3>01/29/2024 - 02/02/2024<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>sent the draft to Satra on Monday but then we have some formatting concerns (in the email); talked to Thalia on Friday, very helpful and I think I have a solution.</p></li>
 </ul>
 </section>
-<section id="id2">
-<h3>01/22/2024 - 01/26/2024<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<section id="id3">
+<h3>01/22/2024 - 01/26/2024<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>finished the draft, met with Thalia from the writing center, discussed revision directions (01/16). I’ll revise the draft sunday and monday then send to Satra and I’ll keep revising it while Satra is reading it. Scheduled another meeting with Thalia next Friday.</p></li>
 <li><p>20 minutes zoom with Jonasch was helpful for the usercase</p></li>
@@ -464,8 +477,8 @@ document.write(`
 <li><p>just a reminder to myself: we want to allow users to pull activities directly from the library when you using the cookiecutter</p></li>
 </ul>
 </section>
-<section id="id3">
-<h3>12/26/2023 - 01/19/2024<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<section id="id4">
+<h3>12/26/2023 - 01/19/2024<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>draft has been revised a couple of rounds but the <code class="docutils literal notranslate"><span class="pre">user</span> <span class="pre">cases</span></code> section is still to-be-written. this section will include <code class="docutils literal notranslate"><span class="pre">hbcd</span></code>, <code class="docutils literal notranslate"><span class="pre">bridge2ai</span></code>, <code class="docutils literal notranslate"><span class="pre">nimh-minimal</span></code>. i need to come up with a struture template for usercases.</p></li>
 <li><p>software side: working on improving the <code class="docutils literal notranslate"><span class="pre">redcap2reproschema</span></code> tool based on <code class="docutils literal notranslate"><span class="pre">hbcd</span></code> and <code class="docutils literal notranslate"><span class="pre">bridge2ai</span></code></p>
@@ -478,8 +491,8 @@ document.write(`
 <li><p>set up a meeting with MIT writing center to go through the draft on Jan. 26th (next Friday)</p></li>
 </ul>
 </section>
-<section id="id4">
-<h3>12/04/2023 - 12/08/2023<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<section id="id5">
+<h3>12/04/2023 - 12/08/2023<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>draft progress:</p>
 <ul>
@@ -493,8 +506,8 @@ document.write(`
 </li>
 </ul>
 </section>
-<section id="id5">
-<h3>11/17/2023 - 12/01/2023<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<section id="id6">
+<h3>11/17/2023 - 12/01/2023<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>finally I got redcap account</p></li>
 <li><p>met with Satra and set up plans</p>
@@ -508,8 +521,8 @@ document.write(`
 <hr class="docutils" />
 <section id="package-maintainance">
 <h2>Package Maintainance<a class="headerlink" href="#package-maintainance" title="Permalink to this heading">#</a></h2>
-<section id="id6">
-<h3>01/11/2024 - 01/12/2024<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
+<section id="id7">
+<h3>01/11/2024 - 01/12/2024<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>EAB meeting:</p>
 <ul>
@@ -529,8 +542,8 @@ document.write(`
 </li>
 </ul>
 </section>
-<section id="id7">
-<h3>12/04/2023 - 12/08/2023<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<section id="id8">
+<h3>12/04/2023 - 12/08/2023<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>met with Dorota on 12/07</p>
 <ul>
@@ -541,8 +554,8 @@ document.write(`
 <li><p>YC works on demo/walkthrough next week</p></li>
 </ul>
 </section>
-<section id="id8">
-<h3>11/17/2023 - 12/01/2023<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
+<section id="id9">
+<h3>11/17/2023 - 12/01/2023<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>met with Satra and set up plans</p>
 <ul>
@@ -560,34 +573,34 @@ document.write(`
 <p><strong>Converting HBN assessments</strong></p>
 <p><strong>Code on GitHub</strong>: <a class="reference external" href="https://github.com/yibeichan/hbn_practice/tree/main/reproschema">Private</a></p>
 <p><strong>Contributors</strong>: Dorota, Kseniia, Maedbh, Sooyang, etc.</p>
-<section id="id9">
-<h3>10/16/2023 - 10/20/2023<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h3>
+<section id="id10">
+<h3>10/16/2023 - 10/20/2023<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>had a meeting with Dorota &amp; Sooyang discussing about where we are at with LinkML</p></li>
 <li><p>Dorota &amp; Sooyang will keep working on this next Monday, YC will catch up on this after OHBM submission</p></li>
 </ul>
 </section>
-<section id="id10">
-<h3>09/25/2023 - 09/29/2023<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h3>
+<section id="id11">
+<h3>09/25/2023 - 09/29/2023<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>got some feedback on other comparable tools (added to the outline) at the repronim meeting</p></li>
 <li><p>fix abcd_cbcl01 scoring, see <a class="reference external" href="https://github.com/ReproNim/reproschema-library/pull/68">PR</a></p></li>
 </ul>
 </section>
-<section id="id11">
-<h3>09/18/2023 - 09/22/2023<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h3>
+<section id="id12">
+<h3>09/18/2023 - 09/22/2023<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>drafted the outline for manuscript, DJ has commented on it.</p></li>
 </ul>
 </section>
-<section id="id12">
-<h3>09/11/2023 - 09/15/2023<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h3>
+<section id="id13">
+<h3>09/11/2023 - 09/15/2023<a class="headerlink" href="#id13" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>played with the <a class="reference external" href="https://github.com/yibeichan/demo-protocol">demo-protocal</a>, got some errors for loading the webpage</p></li>
 </ul>
 </section>
-<section id="id13">
-<h3>09/05/2023 - 09/08/2023<a class="headerlink" href="#id13" title="Permalink to this heading">#</a></h3>
+<section id="id14">
+<h3>09/05/2023 - 09/08/2023<a class="headerlink" href="#id14" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>DJ and YC went through YC’s PR and then merged it</p></li>
 <li><p>YC will use the newly added assessment to create a protocol (via reproschema-ui repo). This would be useful for</p>
@@ -599,22 +612,22 @@ document.write(`
 </li>
 </ul>
 </section>
-<section id="id14">
-<h3>08/28/2023 - 09/01/2023<a class="headerlink" href="#id14" title="Permalink to this heading">#</a></h3>
+<section id="id15">
+<h3>08/28/2023 - 09/01/2023<a class="headerlink" href="#id15" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Revised the 12 assessments in this <a class="reference external" href="https://github.com/ReproNim/reproschema-library/pull/67">PR</a></p></li>
 </ul>
 </section>
-<section id="id15">
-<h3>08/24/2023<a class="headerlink" href="#id15" title="Permalink to this heading">#</a></h3>
+<section id="id16">
+<h3>08/24/2023<a class="headerlink" href="#id16" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Start (manually) collecting free HBN assessments, shared on <a class="reference external" href="https://drive.google.com/drive/folders/19WaMiDkIfXoBbIP4DfMj57j0Q9IHq2E-?usp=drive_link">SIG Google Drive</a>. Kseniia has access too.</p></li>
 <li><p>We can’t calculate subscores for CBCL, because it’s not free. We can’t make it public either. This applies to all private/paid assessments. (Kseniia)</p></li>
 <li><p>Dorota and I will review this <a class="reference external" href="https://github.com/ReproNim/reproschema-library/pull/67">PR</a> on 08/29/2023.</p></li>
 </ul>
 </section>
-<section id="id16">
-<h3>07/2023<a class="headerlink" href="#id16" title="Permalink to this heading">#</a></h3>
+<section id="id17">
+<h3>07/2023<a class="headerlink" href="#id17" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Start converting HBN assessments to reproschema library; Maedbh provided cleaned items</p></li>
 <li><p>Maedbh introduced Kseniia</p></li>
@@ -655,12 +668,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../research/hbn/eFC-adhd.html"
+       href="../research/fUSI-marmoset.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">edge-centric Functional Connectivity in ADHD subtypes</p>
+        <p class="prev-next-title">fUSIPrep (Pydra)</p>
       </div>
     </a>
     <a class="right-next"
@@ -690,28 +703,29 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-updates">Project Updates</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#manuscript">Manuscript</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">01/29/2024 - 02/02/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/22/2024 - 01/26/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">12/26/2023 - 01/19/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">12/04/2023 - 12/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">11/17/2023 - 12/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">02/19/2024 - 02/23/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">01/29/2024 - 02/02/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">01/22/2024 - 01/26/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">12/26/2023 - 01/19/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">12/04/2023 - 12/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">11/17/2023 - 12/01/2023</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#package-maintainance">Package Maintainance</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">01/11/2024 - 01/12/2024</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">12/04/2023 - 12/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">11/17/2023 - 12/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">01/11/2024 - 01/12/2024</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">12/04/2023 - 12/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">11/17/2023 - 12/01/2023</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-assessments">Adding Assessments</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">10/16/2023 - 10/20/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">09/25/2023 - 09/29/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">09/18/2023 - 09/22/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">09/11/2023 - 09/15/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">09/05/2023 - 09/08/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">08/28/2023 - 09/01/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">08/24/2023</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">07/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">10/16/2023 - 10/20/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">09/25/2023 - 09/29/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">09/18/2023 - 09/22/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">09/11/2023 - 09/15/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">09/05/2023 - 09/08/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">08/28/2023 - 09/01/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">08/24/2023</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">07/2023</a></li>
 </ul>
 </li>
 </ul>

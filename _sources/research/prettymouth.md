@@ -29,6 +29,10 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 
 **This project has been submitted to OHBN 2023 and presented as a poster in July 2023, Montreal, Canada.**
 
+### 02/19/2024 - 02/23/2024
+- since YC lost data, we only plotted the behavioral part this time
+- YC will recover/rerun the script to get data back + working on figures for next meeting
+
 ### 01/29/2024 - 02/02/2024
 - yay, payment issue solved and data collected! haven't got time to check the data yet; will start some work next week.
 
@@ -42,7 +46,6 @@ Belief-dependent cortical network dynamics during naturalistic audio-listening
 - to conclude this project, we need to collect another round of behavioral data (ask participants to press the button whenever they find evidence relevant to the information (paranoia vs. affair) provided), in addition to the one we collected for event segmentation. we talked about how to possibly analyze the data: 
   - separate both behavioral data (the 2nd round, evidence one) and the brain RMS into events (based on the 1st round data collection)
   - think about how intra-subject cofluctuation & its RMS provide additional information to our current story?
-- for unconventional data (combination) types (those we don't see often), we are never able to come up detailed plans during the meeting. the most common reaction we have towards those types of data is "it might not be enough to do XXX". then, i'll have my weekend/sunday dedicated to think it through.
 - satra offers help for the data collection and i will come up with a detailed analysis plan before the data collection. (naming satra my favoriate person of the 3rd week of 2024)
 - the authorship will be updated accordingly.
 
