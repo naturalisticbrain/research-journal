@@ -38,6 +38,12 @@ kernelspec:
 I include some software development updates here too, since they are associated with the manuscript
 
 ### 02/19/2024 - 02/23/2024
+- sent SG the manuscript, waiting for comments
+- Aaron is helping with the ui part for `nimh-minimal`, we looped in Puja this morning (02/23) for extra help  
+- Dorota and I are fixing `reproschema-py` based on validation results
+- me working on `reproschema-py` based on Evan's feedback
+
+### 02/12/2024 - 02/16/2024
 - met with Thalia the forth time, we went through the methods/results/discussion based on last week's feedback (I didn't update here last week); making improvements everytime
 - keep revising + making figures during the weekend
 - plan to meet with Thalia next Friday too
