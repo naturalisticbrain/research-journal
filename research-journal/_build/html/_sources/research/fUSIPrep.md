@@ -26,5 +26,9 @@ fUSIPrep (marmoset) Pydra workflow
 | **SIG Project**  | Yes |
 
 ### 02/19/2024 - 02/23/2024
+- YC helped review CZ's SCSB grant proposal
+- CZ walked YC through their data, software, and problem-to-be-solved
+
+### 02/12/2024 - 02/16/2024
 - talked to both Satra and Chaoyi, we should give it a try and this project timeline can be long, we don't have to start writing the workflow right away, aiming later this year as the start
 - YC and CZ will have weekly lunch meeting (CZ will familiarize/train YC with the latest research/updates in the field)
